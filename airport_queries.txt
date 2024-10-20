@@ -1,100 +1,100 @@
-CREATE(n:Airport{airport: "John F Kennedy International airport", iata: "JFK", icao: "KJFK", city: "Jamaica", state: "New York", country: "United states"})
+CREATE(a0:Airport{airport: "Philadelphia International airport", iata: "PHL", icao: "KPHL", city: "Philadelphia", state: "Pennsylvania", country: "United states"})
 
-CREATE(n:Airport{airport: "Krasnodar-Pashovskiy airport", iata: "KRR", icao: "", city: "Krasnodar", state: "Krasnodarskiy Kray", country: "Russia"})
+CREATE(a1:Airport{airport: "Tirane Rinas airport", iata: "TIA", icao: "LATI", city: "Krna", state: "Durrës", country: "Albania"})
 
-CREATE(n:Airport{airport: "Tarapoto airport", iata: "TPP", icao: "", city: "Tarapoto", state: "San Martin", country: "Peru"})
+CREATE(a2:Airport{airport: "Tucson International airport", iata: "TUS", icao: "KTUS", city: "Tucson", state: "Arizona", country: "United states"})
 
-CREATE(n:Airport{airport: "Sky Harbor International airport", iata: "PHX", icao: "KPHX", city: "Phoenix", state: "Arizona", country: "United states"})
+CREATE(a3:Airport{airport: "Aéroport International Pierre-Elliott-Trudeau d", iata: "YUL", icao: "CYUL", city: "Dorval", state: "Quebec", country: "Canada"})
 
-CREATE(n:Airport{airport: "Wuchia Pa airport", iata: "KMG", icao: "ZPPP", city: "Kunming", state: "Yunnan", country: "China"})
+CREATE(a4:Airport{airport: "Miami International airport", iata: "MIA", icao: "KMIA", city: "Miami", state: "Florida", country: "United states"})
 
-CREATE(n:Airport{airport: "Val de Caes International airport", iata: "BEL", icao: "SBBE", city: "Belem", state: "Para", country: "Brazil"})
+CREATE(a5:Airport{airport: "Iraklion airport", iata: "HER", icao: "LGIR", city: "Iraklio", state: "Kriti", country: "Greece"})
 
-CREATE(n:Airport{airport: "Douglas International airport", iata: "CLT", icao: "KCLT", city: "Charlotte", state: "North Carolina", country: "United states"})
+CREATE(a6:Airport{airport: "Ottawa International airport", iata: "YOW", icao: "CYOW", city: "Ottawa", state: "Ontario", country: "Canada"})
 
-CREATE(n:Airport{airport: "Stuttgart airport", iata: "STR", icao: "EDDS", city: "Stuttgart", state: "Baden-Wurttemberg", country: "Germany"})
+CREATE(a7:Airport{airport: "Chongqing Jiangbei International", iata: "CKG", icao: "", city: "Chongqing", state: "Chongqing", country: "China"})
 
-CREATE(n:Airport{airport: "Linate airport", iata: "LIN", icao: "LIML", city: "Peschiera Borromeo", state: "Lombardy", country: "Italy"})
+CREATE(a8:Airport{airport: "Carlos Ibanez de Campo International airport", iata: "PUQ", icao: "SCCI", city: "Punta Arenas", state: "Magallanes y Antartica Chilena", country: "Chile"})
 
-CREATE(n:Airport{airport: "John Wayne airport", iata: "SNA", icao: "KSNA", city: "Santa Ana", state: "California", country: "United states"})
+CREATE(a9:Airport{airport: "Glasgow International airport", iata: "GLA", icao: "EGPF", city: "Paisley", state: "Scotland", country: "United Kingdom"})
 
-CREATE(n:Airport{airport: "Eppley Airfield", iata: "OMA", icao: "KOMA", city: "Omaha", state: "Nebraska", country: "United states"})
+CREATE(a10:Airport{airport: "Pudong International airport", iata: "PVG", icao: "KPVG", city: "Huinan", state: "Shanghai", country: "China"})
 
-CREATE(n:Airport{airport: "Kailua-Kona International airport", iata: "KOA", icao: "PHKO", city: "Kailua Kona", state: "Hawaii", country: "United states"})
+CREATE(a11:Airport{airport: "Juana Azurduy de Padilla airport", iata: "SRE", icao: "KSRE", city: "Sucre", state: "Chuquisaca", country: "Bolivia"})
 
-CREATE(n:Airport{airport: "El Alto International airport", iata: "LPB", icao: "SLLP", city: "La Paz", state: "La Paz", country: "Bolivia"})
+CREATE(a12:Airport{airport: "Chengdushuang Liu airport", iata: "CTU", icao: "ZUUU", city: "Chengdu", state: "Sichuan", country: "China"})
 
-CREATE(n:Airport{airport: "Ibiza airport", iata: "IBZ", icao: "LEIB", city: "San José", state: "Balearic Islands", country: "Spain"})
+CREATE(a13:Airport{airport: "Mineral'nyye Vody", iata: "MRV", icao: "URMM", city: "Mineralnye Vody", state: "Stavropolrskiy Kray", country: "Russia"})
 
-CREATE(n:Airport{airport: "Belize", iata: "PLJ", icao: "", city: "Placencia", state: "", country: "Belize"})
+CREATE(a14:Airport{airport: "Rostov East airport", iata: "ROV", icao: "", city: "Taganrog", state: "Rostovskaya Oblast", country: "Russia"})
 
-CREATE(n:Airport{airport: "Rodriguez Ballon airport", iata: "AQP", icao: "SPQU", city: "Arequipa", state: "Arequipa", country: "Peru"})
+CREATE(a15:Airport{airport: "Orio Al Serio airport", iata: "BGY", icao: "LIME", city: "Grassobbio", state: "Lombardy", country: "Italy"})
 
-CREATE(n:Airport{airport: "Macapa International airport", iata: "MCP", icao: "", city: "Macapá", state: "Amapa", country: "Brazil"})
+CREATE(a16:Airport{airport: "Albuquerque International airport", iata: "ABQ", icao: "KABQ", city: "Albuquerque", state: "New Mexico", country: "United states"})
 
-CREATE(n:Airport{airport: "Franz-Josef-Strauss airport", iata: "MUC", icao: "EDDM", city: "Oberding", state: "Bavaria", country: "Germany"})
+CREATE(a17:Airport{airport: "General Mitchell International airport", iata: "MKE", icao: "KMKE", city: "Milwaukee", state: "Wisconsin", country: "United states"})
 
-CREATE(n:Airport{airport: "Otopeni airport", iata: "OTP", icao: "LROP", city: "Bucharest", state: "Ilfov", country: "Romania"})
+CREATE(a18:Airport{airport: "Kansas city International airport", iata: "MCI", icao: "KMCI", city: "Kansas city", state: "Missouri", country: "United states"})
 
-CREATE(n:Airport{airport: "Hartsfield-Jackson Atlanta International airport", iata: "ATL", icao: "KATL", city: "Atlanta", state: "Georgia", country: "United states"})
+CREATE(a19:Airport{airport: "Zhengzhou airport", iata: "CGO", icao: "ZHCC", city: "Zhengzhou", state: "Henan", country: "China"})
 
-CREATE(n:Airport{airport: "Mehrabad International airport", iata: "THR", icao: "OIII", city: "Tehran", state: "Tehran", country: "Iran"})
+CREATE(a20:Airport{airport: "Helsinki Vantaa airport", iata: "HEL", icao: "EFHK", city: "Vantaa", state: "Southern Finland", country: "Finland"})
 
-CREATE(n:Airport{airport: "General Enrique Mosconi airport", iata: "CRD", icao: "SAVC", city: "Comodoro Rivadavia", state: "Chubut", country: "Argentina"})
+CREATE(a21:Airport{airport: "Cataratas del Iguazu airport", iata: "IGR", icao: "", city: "Puerto Esperanza", state: "Misiones", country: "Argentina"})
 
-CREATE(n:Airport{airport: "Xining airport", iata: "XNN", icao: "", city: "Xining", state: "Qinghai", country: "China"})
+CREATE(a22:Airport{airport: "Indianapolis International airport", iata: "IND", icao: "KIND", city: "Indianapolis", state: "Indiana", country: "United states"})
 
-CREATE(n:Airport{airport: "Kahului airport", iata: "OGG", icao: "PHOG", city: "Kahului", state: "Hawaii", country: "United states"})
+CREATE(a23:Airport{airport: "Dublin airport", iata: "DUB", icao: "EIDW", city: "Cloghran", state: "", country: "Ireland"})
 
-CREATE(n:Airport{airport: "Winnipeg International airport", iata: "YWG", icao: "CYWG", city: "Winnipeg", state: "Manitoba", country: "Canada"})
+CREATE(a24:Airport{airport: "Chengdushuang Liu airport", iata: "CTU", icao: "ZUUU", city: "Chengdu", state: "Sichuan", country: "China"})
 
-CREATE(n:Airport{airport: "Gimpo International airport", iata: "GMP", icao: "RKSS", city: "Seoul", state: "Seoul", country: "South Korea"})
+CREATE(a25:Airport{airport: "Burbank Glendale Pasadena airport", iata: "BUR", icao: "KBUR", city: "Burbank", state: "California", country: "United states"})
 
-CREATE(n:Airport{airport: "Calgary International airport", iata: "YYC", icao: "CYYC", city: "Calgary", state: "Alberta", country: "Canada"})
+CREATE(a26:Airport{airport: "Philip S W Goldson International airport", iata: "BZE", icao: "MZBZ", city: "Hattieville", state: "Belize", country: "Belize"})
 
-CREATE(n:Airport{airport: "La Florida airport", iata: "LSC", icao: "", city: "Compañía Alta", state: "Coquimbo", country: "Chile"})
+CREATE(a27:Airport{airport: "Alicante airport", iata: "ALC", icao: "LEAL", city: "Elx", state: "Valencia", country: "Spain"})
 
-CREATE(n:Airport{airport: "Toronto Lester B Pearson International airport", iata: "YYZ", icao: "CYYZ", city: "Mississauga", state: "Ontario", country: "Canada"})
+CREATE(a28:Airport{airport: "Shenzhen airport", iata: "SZX", icao: "", city: "Shenzhen", state: "Guangdong", country: "China"})
 
-CREATE(n:Airport{airport: "San Antonio International airport", iata: "SAT", icao: "KSAT", city: "San Antonio", state: "Texas", country: "United states"})
+CREATE(a29:Airport{airport: "Wuchia Pa airport", iata: "KMG", icao: "ZPPP", city: "Kunming", state: "Yunnan", country: "China"})
 
-CREATE(n:Airport{airport: "Kirbi airport", iata: "KZN", icao: "", city: "Zelenodol'sk", state: "Tatarstan", country: "Russia"})
+CREATE(a30:Airport{airport: "Washington National airport", iata: "DCA", icao: "KDCA", city: "Arlington", state: "Virginia", country: "United states"})
 
-CREATE(n:Airport{airport: "Netaji Subhash Chandra Bose International Airpor", iata: "CCU", icao: "VECC", city: "Kolkata", state: "West Bengal", country: "India"})
+CREATE(a31:Airport{airport: "Riga airport", iata: "RIX", icao: "EVRA", city: "Marupe", state: "Rigas Rajons", country: "Latvia"})
 
-CREATE(n:Airport{airport: "Taiwan Taoyuan International airport", iata: "TPE", icao: "RCTP", city: "Taoyuan city", state: "Taiwan Province", country: "Taiwan"})
+CREATE(a32:Airport{airport: "Antalya airport", iata: "AYT", icao: "LTAI", city: "Antalya", state: "Antalya", country: "Turkey"})
 
-CREATE(n:Airport{airport: "Gerald R. Ford International airport", iata: "GRR", icao: "KGRR", city: "Grand Rapids", state: "Michigan", country: "United states"})
+CREATE(a33:Airport{airport: "Singapore Changi airport", iata: "SIN", icao: "WSSS", city: "Singapore", state: "South East", country: "Singapore"})
 
-CREATE(n:Airport{airport: "Chateau Bougon airport", iata: "NTE", icao: "LFRS", city: "Bouguenais", state: "Pays de la Loire", country: "France"})
+CREATE(a34:Airport{airport: "Bali International airport", iata: "DPS", icao: "WADD", city: "Denpasar", state: "Bali", country: "Indonesia"})
 
-CREATE(n:Airport{airport: "Los Cabos International airport", iata: "SJD", icao: "MMSD", city: "S. Jose del Cabo", state: "Baja California Sur", country: "Mexico"})
+CREATE(a35:Airport{airport: "Bodo airport", iata: "BOO", icao: "ENBO", city: "Bodo", state: "Nordland Fylke", country: "Norway"})
 
-CREATE(n:Airport{airport: "Lic Benito Juarez International airport", iata: "MEX", icao: "MMMX", city: "Mexico city", state: "Distrito Federal", country: "Mexico"})
+CREATE(a36:Airport{airport: "Belize", iata: "PLJ", icao: "", city: "Placencia", state: "", country: "Belize"})
 
-CREATE(n:Airport{airport: "San Diego International airport", iata: "SAN", icao: "KSAN", city: "San Diego", state: "California", country: "United states"})
+CREATE(a37:Airport{airport: "Indianapolis International airport", iata: "IND", icao: "KIND", city: "Indianapolis", state: "Indiana", country: "United states"})
 
-CREATE(n:Airport{airport: "Sheremtyevo airport", iata: "SVO", icao: "UUEE", city: "Zelenograd", state: "Moskovskaya Oblast", country: "Russia"})
+CREATE(a38:Airport{airport: "Dusseldorf International airport", iata: "DUS", icao: "EDDL", city: "Dusseldorf", state: "North Rhine-Westphalia", country: "Germany"})
 
-CREATE(n:Airport{airport: "Nashville International airport", iata: "BNA", icao: "KBNA", city: "Nashville", state: "Tennessee", country: "United states"})
+CREATE(a39:Airport{airport: "Bodo airport", iata: "BOO", icao: "ENBO", city: "Bodo", state: "Nordland Fylke", country: "Norway"})
 
-CREATE(n:Airport{airport: "Wenzhou airport", iata: "WNZ", icao: "", city: "Wenzhou", state: "Zhejiang", country: "China"})
+CREATE(a40:Airport{airport: "Zhangguizhuang airport", iata: "TSN", icao: "", city: "Tanggu", state: "Tianjin", country: "China"})
 
-CREATE(n:Airport{airport: "Sacramento International airport", iata: "SMF", icao: "KSMF", city: "Sacramento", state: "California", country: "United states"})
+CREATE(a41:Airport{airport: "Chhatrapati Shivaji International airport", iata: "BOM", icao: "VABB", city: "Mumbai", state: "Maharashtra", country: "India"})
 
-CREATE(n:Airport{airport: "Tirane Rinas airport", iata: "TIA", icao: "LATI", city: "Krna", state: "Durrës", country: "Albania"})
+CREATE(a42:Airport{airport: "Mccarran International airport", iata: "LAS", icao: "KLAS", city: "Las Vegas", state: "Nevada", country: "United states"})
 
-CREATE(n:Airport{airport: "Viru Viru International airport", iata: "VVI", icao: "SLVR", city: "Santa Cruz", state: "Santa Cruz", country: "Bolivia"})
+CREATE(a43:Airport{airport: "Kuala Lumpur International airport", iata: "KUL", icao: "WMKK", city: "Sepang", state: "Putrajaya", country: "Malaysia"})
 
-CREATE(n:Airport{airport: "Pulkuvo 2 airport", iata: "LED", icao: "ULLI", city: "St. Petersburg", state: "St. Peterburg", country: "Russia"})
+CREATE(a44:Airport{airport: "Cerro Moreno International airport", iata: "ANF", icao: "SCFA", city: "Antofagasta", state: "Antofagasta", country: "Chile"})
 
-CREATE(n:Airport{airport: "Tocumen International airport", iata: "PTY", icao: "MPTO", city: "Tocumen", state: "Panama", country: "Panama"})
+CREATE(a45:Airport{airport: "Denver International airport", iata: "DEN", icao: "KDEN", city: "Denver", state: "Colorado", country: "United states"})
 
-CREATE(n:Airport{airport: "Vrazhdebna airport", iata: "SOF", icao: "LBSF", city: "Sofia", state: "Sofiya-Grad", country: "Bulgaria"})
+CREATE(a46:Airport{airport: "Yelovaya airport", iata: "KJA", icao: "UNKL", city: "Kansk", state: "Krasnoyarskiy Kray", country: "Russia"})
 
-CREATE(n:Airport{airport: "Juscelino Kubitschek International airport", iata: "BSB", icao: "SBBR", city: "Lago Sul", state: "Distrito Federal", country: "Brazil"})
+CREATE(a47:Airport{airport: "Jorge Wilsterman airport", iata: "CBB", icao: "SLCB", city: "Cochabamba", state: "Cochabamba", country: "Bolivia"})
 
-CREATE(n:Airport{airport: "El Loa airport", iata: "CJC", icao: "", city: "Calama", state: "Antofagasta", country: "Chile"})
+CREATE(a48:Airport{airport: "Santarem International airport", iata: "STM", icao: "", city: "Santarém", state: "Para", country: "Brazil"})
 
-CREATE(n:Airport{airport: "Iraklion airport", iata: "HER", icao: "LGIR", city: "Iraklio", state: "Kriti", country: "Greece"})
+CREATE(a49:Airport{airport: "London Gatwick airport", iata: "LGW", icao: "", city: "Horley", state: "England", country: "United Kingdom"})
 
