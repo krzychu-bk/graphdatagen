@@ -1,0 +1,135 @@
+MATCH (origin:Airport {code: 'JED'})
+        MATCH (destination:Airport {code: 'JMC'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'DL462',
+            departure_time: datetime('2024-10-21T00:11:49'),
+            arrival_time: datetime('2024-10-21T07:38:49'),
+            duration: 447
+        }]->(destination)
+
+MATCH (origin:Airport {code: 'DWU'})
+        MATCH (destination:Airport {code: 'HNL'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'DL516',
+            departure_time: datetime('2024-10-21T02:41:49'),
+            arrival_time: datetime('2024-10-21T08:50:49'),
+            duration: 369
+        }]->(destination)
+
+MATCH (origin:Airport {code: 'PLW'})
+        MATCH (destination:Airport {code: 'BJU'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AF940',
+            departure_time: datetime('2024-10-21T00:14:49'),
+            arrival_time: datetime('2024-10-21T03:53:49'),
+            duration: 219
+        }]->(destination)
+
+MATCH (origin:Airport {code: 'VYC'})
+        MATCH (destination:Airport {code: 'PLW'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'BA445',
+            departure_time: datetime('2024-10-21T00:59:49'),
+            arrival_time: datetime('2024-10-21T09:42:49'),
+            duration: 523
+        }]->(destination)
+
+MATCH (origin:Airport {code: 'HCN'})
+        MATCH (destination:Airport {code: 'JMC'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AA728',
+            departure_time: datetime('2024-10-20T22:57:49'),
+            arrival_time: datetime('2024-10-21T06:17:49'),
+            duration: 440
+        }]->(destination)
+
+MATCH (origin:Airport {code: 'BJU'})
+        MATCH (destination:Airport {code: 'JED'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'DL837',
+            departure_time: datetime('2024-10-21T02:43:49'),
+            arrival_time: datetime('2024-10-21T10:01:49'),
+            duration: 438
+        }]->(destination)
+
+MATCH (origin:Airport {code: 'ZYJ'})
+        MATCH (destination:Airport {code: 'PLW'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AF546',
+            departure_time: datetime('2024-10-21T00:05:49'),
+            arrival_time: datetime('2024-10-21T07:12:49'),
+            duration: 427
+        }]->(destination)
+
+MATCH (origin:Airport {code: 'VYC'})
+        MATCH (destination:Airport {code: 'DWU'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AF732',
+            departure_time: datetime('2024-10-21T01:38:49'),
+            arrival_time: datetime('2024-10-21T07:52:49'),
+            duration: 374
+        }]->(destination)
+
+MATCH (origin:Airport {code: 'JED'})
+        MATCH (destination:Airport {code: 'ZYJ'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'BA357',
+            departure_time: datetime('2024-10-21T00:29:49'),
+            arrival_time: datetime('2024-10-21T06:08:49'),
+            duration: 339
+        }]->(destination)
+
+MATCH (origin:Airport {code: 'OHO'})
+        MATCH (destination:Airport {code: 'BJU'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AA905',
+            departure_time: datetime('2024-10-21T02:00:49'),
+            arrival_time: datetime('2024-10-21T08:57:49'),
+            duration: 417
+        }]->(destination)
+
+MATCH (origin:Airport {code: 'ZYJ'})
+        MATCH (destination:Airport {code: 'JMC'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AA331',
+            departure_time: datetime('2024-10-20T23:29:49'),
+            arrival_time: datetime('2024-10-21T06:41:49'),
+            duration: 432
+        }]->(destination)
+
+MATCH (origin:Airport {code: 'HNL'})
+        MATCH (destination:Airport {code: 'ZYJ'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'DL743',
+            departure_time: datetime('2024-10-21T02:54:49'),
+            arrival_time: datetime('2024-10-21T04:53:49'),
+            duration: 119
+        }]->(destination)
+
+MATCH (origin:Airport {code: 'JMC'})
+        MATCH (destination:Airport {code: 'BJU'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AA498',
+            departure_time: datetime('2024-10-21T01:45:49'),
+            arrival_time: datetime('2024-10-21T09:52:49'),
+            duration: 487
+        }]->(destination)
+
+MATCH (origin:Airport {code: 'PLW'})
+        MATCH (destination:Airport {code: 'JED'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AF797',
+            departure_time: datetime('2024-10-21T02:29:49'),
+            arrival_time: datetime('2024-10-21T03:58:49'),
+            duration: 89
+        }]->(destination)
+
+MATCH (origin:Airport {code: 'JED'})
+        MATCH (destination:Airport {code: 'HNL'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'DL962',
+            departure_time: datetime('2024-10-20T23:18:49'),
+            arrival_time: datetime('2024-10-21T09:00:49'),
+            duration: 582
+        }]->(destination)
+
