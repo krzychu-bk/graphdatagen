@@ -86,12 +86,12 @@ def save_queries_to_files(airport_queries, flight_queries):
     # Save airport queries to a file
     with open("airport_queries.txt", "w") as f:
         for query in airport_queries:
-            f.write(query + "\n\n")
+            f.write(query + ";\n\n")
     
     # Save flight queries to a file
     with open("flight_queries.txt", "w") as f:
         for query in flight_queries:
-            f.write(query + "\n\n")
+            f.write(query + ";\n\n")
 
 # Generate the Cypher queries
 airport_queries, flight_queries = generate_cypher_queries(airports, flights)
