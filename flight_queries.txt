@@ -1,2000 +1,2000 @@
-MATCH (origin:Airport {code: 'EDL'})
-        MATCH (destination:Airport {code: 'XIE'})
+MATCH (origin:Airport {code: 'KWE'})
+        MATCH (destination:Airport {code: 'HON'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'DL513',
-            departure_time: datetime('2024-10-21T00:41:27'),
-            arrival_time: datetime('2024-10-21T07:46:27'),
-            duration: 425,
-            price: 1398
-        }]->(destination)
+            flight_number: 'JL921',
+            departure_time: datetime('2024-10-21T00:56:22'),
+            arrival_time: datetime('2024-10-21T09:53:22'),
+            duration: 537,
+            price: 1326
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'WBS'})
-        MATCH (destination:Airport {code: 'DXH'})
+MATCH (origin:Airport {code: 'HHG'})
+        MATCH (destination:Airport {code: 'CVP'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'EK672',
-            departure_time: datetime('2024-10-21T01:24:27'),
-            arrival_time: datetime('2024-10-21T08:08:27'),
-            duration: 404,
-            price: 1093
-        }]->(destination)
+            flight_number: 'BA852',
+            departure_time: datetime('2024-10-21T03:36:22'),
+            arrival_time: datetime('2024-10-21T04:58:22'),
+            duration: 82,
+            price: 1496
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'FLA'})
-        MATCH (destination:Airport {code: 'XCX'})
+MATCH (origin:Airport {code: 'JBW'})
+        MATCH (destination:Airport {code: 'FWL'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'BA381',
-            departure_time: datetime('2024-10-20T23:12:27'),
-            arrival_time: datetime('2024-10-21T06:52:27'),
-            duration: 460,
-            price: 1319
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'QBX'})
-        MATCH (destination:Airport {code: 'XPI'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'BA251',
-            departure_time: datetime('2024-10-21T02:12:27'),
-            arrival_time: datetime('2024-10-21T09:23:27'),
-            duration: 431,
-            price: 388
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'UAH'})
-        MATCH (destination:Airport {code: 'YMQ'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'BA229',
-            departure_time: datetime('2024-10-21T02:25:27'),
-            arrival_time: datetime('2024-10-21T12:04:27'),
-            duration: 579,
-            price: 315
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'AXP'})
-        MATCH (destination:Airport {code: 'FIV'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'JL488',
-            departure_time: datetime('2024-10-21T03:23:27'),
-            arrival_time: datetime('2024-10-21T08:18:27'),
-            duration: 295,
-            price: 1071
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'YQG'})
-        MATCH (destination:Airport {code: 'ZBB'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'AF446',
-            departure_time: datetime('2024-10-21T01:56:27'),
-            arrival_time: datetime('2024-10-21T03:44:27'),
-            duration: 108,
-            price: 811
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'OOT'})
-        MATCH (destination:Airport {code: 'NIG'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'BA585',
-            departure_time: datetime('2024-10-21T03:05:27'),
-            arrival_time: datetime('2024-10-21T07:15:27'),
-            duration: 250,
-            price: 781
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'DMH'})
-        MATCH (destination:Airport {code: 'INA'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'DL885',
-            departure_time: datetime('2024-10-21T00:09:27'),
-            arrival_time: datetime('2024-10-21T03:39:27'),
-            duration: 210,
-            price: 1071
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'PUQ'})
-        MATCH (destination:Airport {code: 'FIV'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'EK195',
-            departure_time: datetime('2024-10-21T03:09:27'),
-            arrival_time: datetime('2024-10-21T12:27:27'),
-            duration: 558,
-            price: 1870
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'MFE'})
-        MATCH (destination:Airport {code: 'DMH'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'JL452',
-            departure_time: datetime('2024-10-21T02:42:27'),
-            arrival_time: datetime('2024-10-21T08:06:27'),
-            duration: 324,
-            price: 1455
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'YMQ'})
-        MATCH (destination:Airport {code: 'XCX'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'EK268',
-            departure_time: datetime('2024-10-21T02:28:27'),
-            arrival_time: datetime('2024-10-21T05:29:27'),
+            flight_number: 'BA779',
+            departure_time: datetime('2024-10-21T00:23:22'),
+            arrival_time: datetime('2024-10-21T03:24:22'),
             duration: 181,
-            price: 1851
-        }]->(destination)
+            price: 1641
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'AXP'})
-        MATCH (destination:Airport {code: 'QVP'})
+MATCH (origin:Airport {code: 'IEP'})
+        MATCH (destination:Airport {code: 'RPP'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'AF830',
-            departure_time: datetime('2024-10-21T02:10:27'),
-            arrival_time: datetime('2024-10-21T07:37:27'),
-            duration: 327,
-            price: 1213
-        }]->(destination)
+            flight_number: 'AF342',
+            departure_time: datetime('2024-10-21T00:54:22'),
+            arrival_time: datetime('2024-10-21T07:37:22'),
+            duration: 403,
+            price: 1014
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'CAP'})
-        MATCH (destination:Airport {code: 'CAW'})
+MATCH (origin:Airport {code: 'DUR'})
+        MATCH (destination:Airport {code: 'ZQT'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'AA420',
-            departure_time: datetime('2024-10-21T01:54:27'),
-            arrival_time: datetime('2024-10-21T10:10:27'),
-            duration: 496,
-            price: 1654
-        }]->(destination)
+            flight_number: 'DL593',
+            departure_time: datetime('2024-10-21T03:21:22'),
+            arrival_time: datetime('2024-10-21T06:01:22'),
+            duration: 160,
+            price: 1030
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'RGF'})
-        MATCH (destination:Airport {code: 'GWI'})
+MATCH (origin:Airport {code: 'XLN'})
+        MATCH (destination:Airport {code: 'PBO'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'BA131',
-            departure_time: datetime('2024-10-21T03:09:27'),
-            arrival_time: datetime('2024-10-21T05:48:27'),
-            duration: 159,
-            price: 1731
-        }]->(destination)
+            flight_number: 'JL867',
+            departure_time: datetime('2024-10-21T03:33:22'),
+            arrival_time: datetime('2024-10-21T07:20:22'),
+            duration: 227,
+            price: 567
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'EDL'})
-        MATCH (destination:Airport {code: 'YQG'})
+MATCH (origin:Airport {code: 'ERY'})
+        MATCH (destination:Airport {code: 'HXW'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'BA678',
-            departure_time: datetime('2024-10-21T01:49:27'),
-            arrival_time: datetime('2024-10-21T06:02:27'),
-            duration: 253,
-            price: 1751
-        }]->(destination)
+            flight_number: 'EK762',
+            departure_time: datetime('2024-10-21T00:15:22'),
+            arrival_time: datetime('2024-10-21T01:26:22'),
+            duration: 71,
+            price: 1946
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'XPI'})
-        MATCH (destination:Airport {code: 'FLA'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'AF160',
-            departure_time: datetime('2024-10-21T02:25:27'),
-            arrival_time: datetime('2024-10-21T11:52:27'),
-            duration: 567,
-            price: 1233
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'ZBB'})
-        MATCH (destination:Airport {code: 'GWI'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'AF811',
-            departure_time: datetime('2024-10-21T00:58:27'),
-            arrival_time: datetime('2024-10-21T07:36:27'),
-            duration: 398,
-            price: 536
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'XCX'})
-        MATCH (destination:Airport {code: 'CFR'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'JL705',
-            departure_time: datetime('2024-10-21T02:56:27'),
-            arrival_time: datetime('2024-10-21T04:56:27'),
-            duration: 120,
-            price: 1935
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'KZQ'})
-        MATCH (destination:Airport {code: 'UAH'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'JL798',
-            departure_time: datetime('2024-10-21T01:44:27'),
-            arrival_time: datetime('2024-10-21T08:12:27'),
-            duration: 388,
-            price: 1683
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'ZME'})
-        MATCH (destination:Airport {code: 'TNF'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'AA218',
-            departure_time: datetime('2024-10-20T23:25:27'),
-            arrival_time: datetime('2024-10-21T06:39:27'),
-            duration: 434,
-            price: 1742
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'ZBB'})
-        MATCH (destination:Airport {code: 'QVP'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'AA300',
-            departure_time: datetime('2024-10-21T02:59:27'),
-            arrival_time: datetime('2024-10-21T05:21:27'),
-            duration: 142,
-            price: 531
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'NIG'})
-        MATCH (destination:Airport {code: 'QBX'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'AA332',
-            departure_time: datetime('2024-10-21T00:54:27'),
-            arrival_time: datetime('2024-10-21T04:32:27'),
-            duration: 218,
-            price: 1309
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'DXH'})
-        MATCH (destination:Airport {code: 'UAH'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'AA435',
-            departure_time: datetime('2024-10-21T00:38:27'),
-            arrival_time: datetime('2024-10-21T03:09:27'),
-            duration: 151,
-            price: 428
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'EDL'})
-        MATCH (destination:Airport {code: 'QBX'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'DL650',
-            departure_time: datetime('2024-10-21T02:25:27'),
-            arrival_time: datetime('2024-10-21T09:45:27'),
-            duration: 440,
-            price: 421
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'QBX'})
-        MATCH (destination:Airport {code: 'RRC'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'BA463',
-            departure_time: datetime('2024-10-21T02:15:27'),
-            arrival_time: datetime('2024-10-21T09:00:27'),
-            duration: 405,
-            price: 347
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'LRC'})
-        MATCH (destination:Airport {code: 'UAH'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'AA787',
-            departure_time: datetime('2024-10-21T03:05:27'),
-            arrival_time: datetime('2024-10-21T07:02:27'),
-            duration: 237,
-            price: 728
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'LRM'})
-        MATCH (destination:Airport {code: 'CMZ'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'AF880',
-            departure_time: datetime('2024-10-21T02:46:27'),
-            arrival_time: datetime('2024-10-21T08:46:27'),
-            duration: 360,
-            price: 393
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'CFR'})
-        MATCH (destination:Airport {code: 'NIG'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'JL266',
-            departure_time: datetime('2024-10-21T03:07:27'),
-            arrival_time: datetime('2024-10-21T07:42:27'),
-            duration: 275,
-            price: 963
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'ZME'})
-        MATCH (destination:Airport {code: 'XPI'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'AF693',
-            departure_time: datetime('2024-10-20T23:23:27'),
-            arrival_time: datetime('2024-10-21T00:31:27'),
-            duration: 68,
-            price: 1025
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'ZBB'})
-        MATCH (destination:Airport {code: 'XNJ'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'AA974',
-            departure_time: datetime('2024-10-21T03:00:27'),
-            arrival_time: datetime('2024-10-21T10:42:27'),
-            duration: 462,
-            price: 1624
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'QEL'})
-        MATCH (destination:Airport {code: 'CAW'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'AF502',
-            departure_time: datetime('2024-10-21T02:53:27'),
-            arrival_time: datetime('2024-10-21T07:10:27'),
-            duration: 257,
-            price: 1573
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'MFE'})
-        MATCH (destination:Airport {code: 'KYW'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'AF449',
-            departure_time: datetime('2024-10-21T01:44:27'),
-            arrival_time: datetime('2024-10-21T08:02:27'),
-            duration: 378,
-            price: 407
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'XQL'})
-        MATCH (destination:Airport {code: 'SEH'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'JL423',
-            departure_time: datetime('2024-10-21T00:18:27'),
-            arrival_time: datetime('2024-10-21T08:36:27'),
-            duration: 498,
-            price: 865
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'YQG'})
-        MATCH (destination:Airport {code: 'QBX'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'JL694',
-            departure_time: datetime('2024-10-21T01:14:27'),
-            arrival_time: datetime('2024-10-21T02:55:27'),
-            duration: 101,
-            price: 304
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'KYW'})
-        MATCH (destination:Airport {code: 'SEB'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'AA923',
-            departure_time: datetime('2024-10-20T23:13:27'),
-            arrival_time: datetime('2024-10-21T03:46:27'),
-            duration: 273,
-            price: 256
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'XQL'})
-        MATCH (destination:Airport {code: 'SEH'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'AA263',
-            departure_time: datetime('2024-10-21T01:52:27'),
-            arrival_time: datetime('2024-10-21T07:28:27'),
-            duration: 336,
-            price: 1653
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'UAH'})
-        MATCH (destination:Airport {code: 'YRT'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'AA178',
-            departure_time: datetime('2024-10-21T01:24:27'),
-            arrival_time: datetime('2024-10-21T06:04:27'),
-            duration: 280,
-            price: 1600
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'XLF'})
-        MATCH (destination:Airport {code: 'DXH'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'EK154',
-            departure_time: datetime('2024-10-21T03:25:27'),
-            arrival_time: datetime('2024-10-21T05:56:27'),
-            duration: 151,
-            price: 1098
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'DXH'})
-        MATCH (destination:Airport {code: 'WBS'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'JL687',
-            departure_time: datetime('2024-10-21T02:17:27'),
-            arrival_time: datetime('2024-10-21T04:24:27'),
-            duration: 127,
-            price: 305
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'YQG'})
-        MATCH (destination:Airport {code: 'CMZ'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'BA957',
-            departure_time: datetime('2024-10-21T00:41:27'),
-            arrival_time: datetime('2024-10-21T08:12:27'),
-            duration: 451,
-            price: 1061
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'QDP'})
-        MATCH (destination:Airport {code: 'DXH'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'AF153',
-            departure_time: datetime('2024-10-21T01:27:27'),
-            arrival_time: datetime('2024-10-21T09:56:27'),
-            duration: 509,
-            price: 1531
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'PUQ'})
-        MATCH (destination:Airport {code: 'YMQ'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'AA116',
-            departure_time: datetime('2024-10-20T23:49:27'),
-            arrival_time: datetime('2024-10-21T03:20:27'),
-            duration: 211,
-            price: 1685
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'LRM'})
-        MATCH (destination:Airport {code: 'CFR'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'EK862',
-            departure_time: datetime('2024-10-21T00:45:27'),
-            arrival_time: datetime('2024-10-21T05:07:27'),
-            duration: 262,
-            price: 1193
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'XQL'})
-        MATCH (destination:Airport {code: 'FOS'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'JL506',
-            departure_time: datetime('2024-10-21T02:40:27'),
-            arrival_time: datetime('2024-10-21T07:20:27'),
-            duration: 280,
-            price: 848
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'RGF'})
-        MATCH (destination:Airport {code: 'IGZ'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'AF978',
-            departure_time: datetime('2024-10-20T23:14:27'),
-            arrival_time: datetime('2024-10-21T05:45:27'),
-            duration: 391,
-            price: 729
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'INA'})
-        MATCH (destination:Airport {code: 'OOT'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'JL112',
-            departure_time: datetime('2024-10-21T02:57:27'),
-            arrival_time: datetime('2024-10-21T09:36:27'),
-            duration: 399,
-            price: 1756
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'TNF'})
-        MATCH (destination:Airport {code: 'CFR'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'BA522',
-            departure_time: datetime('2024-10-21T00:47:27'),
-            arrival_time: datetime('2024-10-21T09:06:27'),
-            duration: 499,
-            price: 1820
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'PUQ'})
-        MATCH (destination:Airport {code: 'QBX'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'DL501',
-            departure_time: datetime('2024-10-21T00:46:27'),
-            arrival_time: datetime('2024-10-21T06:14:27'),
-            duration: 328,
-            price: 1423
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'WBS'})
-        MATCH (destination:Airport {code: 'RGR'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'DL987',
-            departure_time: datetime('2024-10-21T03:16:27'),
-            arrival_time: datetime('2024-10-21T07:16:27'),
-            duration: 240,
-            price: 676
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'RCY'})
-        MATCH (destination:Airport {code: 'GWI'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'DL289',
-            departure_time: datetime('2024-10-20T23:26:27'),
-            arrival_time: datetime('2024-10-21T03:06:27'),
-            duration: 220,
-            price: 431
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'TNF'})
-        MATCH (destination:Airport {code: 'ZBB'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'DL675',
-            departure_time: datetime('2024-10-21T01:33:27'),
-            arrival_time: datetime('2024-10-21T07:39:27'),
-            duration: 366,
-            price: 883
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'PUQ'})
-        MATCH (destination:Airport {code: 'CFR'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'EK427',
-            departure_time: datetime('2024-10-21T00:25:27'),
-            arrival_time: datetime('2024-10-21T03:13:27'),
-            duration: 168,
-            price: 1819
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'YQG'})
-        MATCH (destination:Airport {code: 'KYW'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'DL636',
-            departure_time: datetime('2024-10-21T03:29:27'),
-            arrival_time: datetime('2024-10-21T08:46:27'),
-            duration: 317,
-            price: 1050
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'CAP'})
-        MATCH (destination:Airport {code: 'GJR'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'DL424',
-            departure_time: datetime('2024-10-20T23:44:27'),
-            arrival_time: datetime('2024-10-21T06:02:27'),
-            duration: 378,
-            price: 858
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'WBS'})
-        MATCH (destination:Airport {code: 'PUQ'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'EK991',
-            departure_time: datetime('2024-10-21T01:13:27'),
-            arrival_time: datetime('2024-10-21T10:01:27'),
-            duration: 528,
-            price: 274
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'CAP'})
-        MATCH (destination:Airport {code: 'ZME'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'BA448',
-            departure_time: datetime('2024-10-21T01:17:27'),
-            arrival_time: datetime('2024-10-21T06:10:27'),
-            duration: 293,
-            price: 1269
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'XIE'})
-        MATCH (destination:Airport {code: 'SEH'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'DL258',
-            departure_time: datetime('2024-10-21T01:22:27'),
-            arrival_time: datetime('2024-10-21T07:30:27'),
-            duration: 368,
-            price: 1976
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'RGR'})
-        MATCH (destination:Airport {code: 'ZBB'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'JL487',
-            departure_time: datetime('2024-10-21T02:35:27'),
-            arrival_time: datetime('2024-10-21T04:12:27'),
-            duration: 97,
-            price: 1617
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'XQL'})
-        MATCH (destination:Airport {code: 'GJR'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'DL240',
-            departure_time: datetime('2024-10-21T00:02:27'),
-            arrival_time: datetime('2024-10-21T07:07:27'),
-            duration: 425,
-            price: 239
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'TNF'})
-        MATCH (destination:Airport {code: 'XNJ'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'EK954',
-            departure_time: datetime('2024-10-21T02:51:27'),
-            arrival_time: datetime('2024-10-21T10:33:27'),
-            duration: 462,
-            price: 1717
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'AXP'})
-        MATCH (destination:Airport {code: 'XCX'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'DL896',
-            departure_time: datetime('2024-10-21T01:20:27'),
-            arrival_time: datetime('2024-10-21T05:05:27'),
-            duration: 225,
-            price: 1191
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'YMQ'})
-        MATCH (destination:Airport {code: 'QBX'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'AF507',
-            departure_time: datetime('2024-10-21T01:55:27'),
-            arrival_time: datetime('2024-10-21T09:38:27'),
-            duration: 463,
-            price: 331
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'RGR'})
-        MATCH (destination:Airport {code: 'CAP'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'AA436',
-            departure_time: datetime('2024-10-21T03:33:27'),
-            arrival_time: datetime('2024-10-21T07:28:27'),
-            duration: 235,
-            price: 701
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'XLF'})
-        MATCH (destination:Airport {code: 'QEL'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'JL743',
-            departure_time: datetime('2024-10-21T01:34:27'),
-            arrival_time: datetime('2024-10-21T04:45:27'),
-            duration: 191,
-            price: 1720
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'LRM'})
-        MATCH (destination:Airport {code: 'XCX'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'BA628',
-            departure_time: datetime('2024-10-20T23:51:27'),
-            arrival_time: datetime('2024-10-21T06:41:27'),
-            duration: 410,
-            price: 1384
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'TNF'})
-        MATCH (destination:Airport {code: 'MFE'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'EK918',
-            departure_time: datetime('2024-10-21T01:02:27'),
-            arrival_time: datetime('2024-10-21T04:08:27'),
-            duration: 186,
-            price: 1104
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'INA'})
-        MATCH (destination:Airport {code: 'IGZ'})
+MATCH (origin:Airport {code: 'IFC'})
+        MATCH (destination:Airport {code: 'LEP'})
         CREATE (origin)-[:FLIGHT {
             flight_number: 'JL418',
-            departure_time: datetime('2024-10-21T02:37:27'),
-            arrival_time: datetime('2024-10-21T06:46:27'),
-            duration: 249,
-            price: 1440
-        }]->(destination)
+            departure_time: datetime('2024-10-21T02:26:22'),
+            arrival_time: datetime('2024-10-21T08:29:22'),
+            duration: 363,
+            price: 773
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'RGR'})
-        MATCH (destination:Airport {code: 'FLA'})
+MATCH (origin:Airport {code: 'SQX'})
+        MATCH (destination:Airport {code: 'VLU'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'JL577',
-            departure_time: datetime('2024-10-21T00:57:27'),
-            arrival_time: datetime('2024-10-21T02:57:27'),
-            duration: 120,
-            price: 786
-        }]->(destination)
+            flight_number: 'AA650',
+            departure_time: datetime('2024-10-20T23:31:22'),
+            arrival_time: datetime('2024-10-21T00:37:22'),
+            duration: 66,
+            price: 1145
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'XPI'})
-        MATCH (destination:Airport {code: 'RCY'})
+MATCH (origin:Airport {code: 'WFC'})
+        MATCH (destination:Airport {code: 'ZGP'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'BA688',
-            departure_time: datetime('2024-10-21T03:14:27'),
-            arrival_time: datetime('2024-10-21T06:55:27'),
-            duration: 221,
-            price: 1653
-        }]->(destination)
+            flight_number: 'AA697',
+            departure_time: datetime('2024-10-21T02:29:22'),
+            arrival_time: datetime('2024-10-21T06:04:22'),
+            duration: 215,
+            price: 383
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'RCY'})
-        MATCH (destination:Airport {code: 'AXP'})
+MATCH (origin:Airport {code: 'EOK'})
+        MATCH (destination:Airport {code: 'SSA'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'JL624',
-            departure_time: datetime('2024-10-21T00:20:27'),
-            arrival_time: datetime('2024-10-21T10:05:27'),
+            flight_number: 'BA124',
+            departure_time: datetime('2024-10-21T01:07:22'),
+            arrival_time: datetime('2024-10-21T07:46:22'),
+            duration: 399,
+            price: 1224
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'ZGP'})
+        MATCH (destination:Airport {code: 'LEP'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'DL743',
+            departure_time: datetime('2024-10-21T02:50:22'),
+            arrival_time: datetime('2024-10-21T09:18:22'),
+            duration: 388,
+            price: 1309
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'PBO'})
+        MATCH (destination:Airport {code: 'XSJ'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AA191',
+            departure_time: datetime('2024-10-21T02:42:22'),
+            arrival_time: datetime('2024-10-21T12:27:22'),
             duration: 585,
-            price: 508
-        }]->(destination)
+            price: 562
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'WBS'})
-        MATCH (destination:Airport {code: 'FOS'})
+MATCH (origin:Airport {code: 'AWB'})
+        MATCH (destination:Airport {code: 'LAF'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'BA612',
-            departure_time: datetime('2024-10-21T00:03:27'),
-            arrival_time: datetime('2024-10-21T02:51:27'),
-            duration: 168,
-            price: 1003
-        }]->(destination)
+            flight_number: 'DL836',
+            departure_time: datetime('2024-10-21T00:32:22'),
+            arrival_time: datetime('2024-10-21T02:05:22'),
+            duration: 93,
+            price: 581
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'GJR'})
-        MATCH (destination:Airport {code: 'FLA'})
+MATCH (origin:Airport {code: 'DPX'})
+        MATCH (destination:Airport {code: 'FWL'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'JL472',
-            departure_time: datetime('2024-10-21T01:11:27'),
-            arrival_time: datetime('2024-10-21T05:01:27'),
-            duration: 230,
-            price: 1071
-        }]->(destination)
+            flight_number: 'DL898',
+            departure_time: datetime('2024-10-21T00:03:22'),
+            arrival_time: datetime('2024-10-21T04:18:22'),
+            duration: 255,
+            price: 1136
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'EDL'})
-        MATCH (destination:Airport {code: 'QDP'})
+MATCH (origin:Airport {code: 'CVK'})
+        MATCH (destination:Airport {code: 'GEB'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'BA862',
-            departure_time: datetime('2024-10-21T02:28:27'),
-            arrival_time: datetime('2024-10-21T08:21:27'),
-            duration: 353,
-            price: 907
-        }]->(destination)
+            flight_number: 'JL261',
+            departure_time: datetime('2024-10-21T00:06:22'),
+            arrival_time: datetime('2024-10-21T03:23:22'),
+            duration: 197,
+            price: 1402
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'YRT'})
-        MATCH (destination:Airport {code: 'KZQ'})
+MATCH (origin:Airport {code: 'SQX'})
+        MATCH (destination:Airport {code: 'ONQ'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'AF882',
-            departure_time: datetime('2024-10-21T02:02:27'),
-            arrival_time: datetime('2024-10-21T09:51:27'),
-            duration: 469,
-            price: 1182
-        }]->(destination)
+            flight_number: 'JL643',
+            departure_time: datetime('2024-10-21T00:05:22'),
+            arrival_time: datetime('2024-10-21T05:11:22'),
+            duration: 306,
+            price: 522
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'LRC'})
-        MATCH (destination:Airport {code: 'QEL'})
+MATCH (origin:Airport {code: 'IFC'})
+        MATCH (destination:Airport {code: 'PKR'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'AF523',
-            departure_time: datetime('2024-10-20T23:26:27'),
-            arrival_time: datetime('2024-10-21T04:16:27'),
-            duration: 290,
-            price: 1035
-        }]->(destination)
+            flight_number: 'AA680',
+            departure_time: datetime('2024-10-21T00:30:22'),
+            arrival_time: datetime('2024-10-21T08:23:22'),
+            duration: 473,
+            price: 772
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'XPI'})
-        MATCH (destination:Airport {code: 'QDP'})
+MATCH (origin:Airport {code: 'PBO'})
+        MATCH (destination:Airport {code: 'WFC'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'AF354',
-            departure_time: datetime('2024-10-21T00:02:27'),
-            arrival_time: datetime('2024-10-21T03:22:27'),
-            duration: 200,
-            price: 1495
-        }]->(destination)
+            flight_number: 'DL780',
+            departure_time: datetime('2024-10-21T02:08:22'),
+            arrival_time: datetime('2024-10-21T08:42:22'),
+            duration: 394,
+            price: 1689
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'LRC'})
-        MATCH (destination:Airport {code: 'FOS'})
+MATCH (origin:Airport {code: 'SQX'})
+        MATCH (destination:Airport {code: 'XLN'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'JL719',
-            departure_time: datetime('2024-10-21T00:26:27'),
-            arrival_time: datetime('2024-10-21T02:16:27'),
-            duration: 110,
-            price: 1690
-        }]->(destination)
+            flight_number: 'EK102',
+            departure_time: datetime('2024-10-21T00:29:22'),
+            arrival_time: datetime('2024-10-21T08:01:22'),
+            duration: 452,
+            price: 984
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'OOT'})
-        MATCH (destination:Airport {code: 'LRC'})
+MATCH (origin:Airport {code: 'ONQ'})
+        MATCH (destination:Airport {code: 'UOK'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'AF821',
-            departure_time: datetime('2024-10-21T01:54:27'),
-            arrival_time: datetime('2024-10-21T11:32:27'),
-            duration: 578,
-            price: 1879
-        }]->(destination)
+            flight_number: 'EK339',
+            departure_time: datetime('2024-10-20T23:26:22'),
+            arrival_time: datetime('2024-10-21T02:37:22'),
+            duration: 191,
+            price: 1192
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'WBS'})
-        MATCH (destination:Airport {code: 'CMZ'})
+MATCH (origin:Airport {code: 'CVK'})
+        MATCH (destination:Airport {code: 'JXA'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'BA261',
-            departure_time: datetime('2024-10-21T00:11:27'),
-            arrival_time: datetime('2024-10-21T10:11:27'),
-            duration: 600,
-            price: 1442
-        }]->(destination)
+            flight_number: 'DL897',
+            departure_time: datetime('2024-10-21T01:27:22'),
+            arrival_time: datetime('2024-10-21T03:57:22'),
+            duration: 150,
+            price: 710
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'OOT'})
-        MATCH (destination:Airport {code: 'CMZ'})
+MATCH (origin:Airport {code: 'JBW'})
+        MATCH (destination:Airport {code: 'LEP'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'JL807',
-            departure_time: datetime('2024-10-21T00:17:27'),
-            arrival_time: datetime('2024-10-21T01:27:27'),
-            duration: 70,
-            price: 1548
-        }]->(destination)
+            flight_number: 'AF163',
+            departure_time: datetime('2024-10-21T01:40:22'),
+            arrival_time: datetime('2024-10-21T09:59:22'),
+            duration: 499,
+            price: 1177
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'CMZ'})
-        MATCH (destination:Airport {code: 'OOT'})
+MATCH (origin:Airport {code: 'RPP'})
+        MATCH (destination:Airport {code: 'WFC'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'AA312',
-            departure_time: datetime('2024-10-21T00:38:27'),
-            arrival_time: datetime('2024-10-21T09:13:27'),
-            duration: 515,
-            price: 1208
-        }]->(destination)
+            flight_number: 'DL684',
+            departure_time: datetime('2024-10-21T01:15:22'),
+            arrival_time: datetime('2024-10-21T05:07:22'),
+            duration: 232,
+            price: 914
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'CMZ'})
-        MATCH (destination:Airport {code: 'UAH'})
+MATCH (origin:Airport {code: 'ZCB'})
+        MATCH (destination:Airport {code: 'PKR'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'BA279',
-            departure_time: datetime('2024-10-20T23:24:27'),
-            arrival_time: datetime('2024-10-21T07:48:27'),
-            duration: 504,
-            price: 955
-        }]->(destination)
+            flight_number: 'JL888',
+            departure_time: datetime('2024-10-21T01:03:22'),
+            arrival_time: datetime('2024-10-21T04:49:22'),
+            duration: 226,
+            price: 1387
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'XNJ'})
-        MATCH (destination:Airport {code: 'SEB'})
+MATCH (origin:Airport {code: 'XAE'})
+        MATCH (destination:Airport {code: 'ZQT'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'AF406',
-            departure_time: datetime('2024-10-21T02:23:27'),
-            arrival_time: datetime('2024-10-21T08:35:27'),
-            duration: 372,
-            price: 1585
-        }]->(destination)
+            flight_number: 'EK665',
+            departure_time: datetime('2024-10-21T03:42:22'),
+            arrival_time: datetime('2024-10-21T09:37:22'),
+            duration: 355,
+            price: 1266
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'HTO'})
-        MATCH (destination:Airport {code: 'PUQ'})
+MATCH (origin:Airport {code: 'SQX'})
+        MATCH (destination:Airport {code: 'GEB'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'EK550',
-            departure_time: datetime('2024-10-20T23:08:27'),
-            arrival_time: datetime('2024-10-21T08:34:27'),
-            duration: 566,
-            price: 1768
-        }]->(destination)
+            flight_number: 'AA705',
+            departure_time: datetime('2024-10-21T01:46:22'),
+            arrival_time: datetime('2024-10-21T10:46:22'),
+            duration: 540,
+            price: 421
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'DMH'})
-        MATCH (destination:Airport {code: 'FIV'})
+MATCH (origin:Airport {code: 'ONQ'})
+        MATCH (destination:Airport {code: 'MEI'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'AF410',
-            departure_time: datetime('2024-10-21T02:59:27'),
-            arrival_time: datetime('2024-10-21T10:58:27'),
-            duration: 479,
-            price: 1762
-        }]->(destination)
+            flight_number: 'AA651',
+            departure_time: datetime('2024-10-21T01:11:22'),
+            arrival_time: datetime('2024-10-21T09:07:22'),
+            duration: 476,
+            price: 1579
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'PUQ'})
-        MATCH (destination:Airport {code: 'GZT'})
+MATCH (origin:Airport {code: 'QON'})
+        MATCH (destination:Airport {code: 'KWE'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'AA906',
-            departure_time: datetime('2024-10-21T02:54:27'),
-            arrival_time: datetime('2024-10-21T05:14:27'),
-            duration: 140,
-            price: 492
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'DXH'})
-        MATCH (destination:Airport {code: 'CAW'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'BA780',
-            departure_time: datetime('2024-10-21T00:54:27'),
-            arrival_time: datetime('2024-10-21T02:20:27'),
-            duration: 86,
-            price: 1464
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'DXH'})
-        MATCH (destination:Airport {code: 'SEB'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'AF996',
-            departure_time: datetime('2024-10-21T02:44:27'),
-            arrival_time: datetime('2024-10-21T12:38:27'),
-            duration: 594,
-            price: 1066
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'YMQ'})
-        MATCH (destination:Airport {code: 'PUQ'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'AF172',
-            departure_time: datetime('2024-10-21T03:12:27'),
-            arrival_time: datetime('2024-10-21T10:02:27'),
-            duration: 410,
-            price: 1536
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'EDL'})
-        MATCH (destination:Airport {code: 'YQG'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'EK472',
-            departure_time: datetime('2024-10-21T00:44:27'),
-            arrival_time: datetime('2024-10-21T09:33:27'),
-            duration: 529,
-            price: 1991
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'QDP'})
-        MATCH (destination:Airport {code: 'YRT'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'DL376',
-            departure_time: datetime('2024-10-21T03:27:27'),
-            arrival_time: datetime('2024-10-21T06:55:27'),
-            duration: 208,
-            price: 1506
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'MFE'})
-        MATCH (destination:Airport {code: 'RCY'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'BA201',
-            departure_time: datetime('2024-10-21T02:30:27'),
-            arrival_time: datetime('2024-10-21T11:34:27'),
-            duration: 544,
-            price: 440
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'FLA'})
-        MATCH (destination:Airport {code: 'XIE'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'AA837',
-            departure_time: datetime('2024-10-20T23:31:27'),
-            arrival_time: datetime('2024-10-21T04:01:27'),
-            duration: 270,
-            price: 1981
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'CAP'})
-        MATCH (destination:Airport {code: 'QEL'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'JL837',
-            departure_time: datetime('2024-10-21T01:09:27'),
-            arrival_time: datetime('2024-10-21T08:17:27'),
-            duration: 428,
-            price: 1182
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'XQL'})
-        MATCH (destination:Airport {code: 'ZBB'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'EK380',
-            departure_time: datetime('2024-10-20T23:47:27'),
-            arrival_time: datetime('2024-10-21T09:23:27'),
-            duration: 576,
-            price: 1043
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'FIV'})
-        MATCH (destination:Airport {code: 'HTO'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'DL425',
-            departure_time: datetime('2024-10-21T01:51:27'),
-            arrival_time: datetime('2024-10-21T11:00:27'),
-            duration: 549,
-            price: 332
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'KYW'})
-        MATCH (destination:Airport {code: 'ZBB'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'AF170',
-            departure_time: datetime('2024-10-20T23:55:27'),
-            arrival_time: datetime('2024-10-21T04:19:27'),
-            duration: 264,
-            price: 572
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'NIG'})
-        MATCH (destination:Airport {code: 'INA'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'AA739',
-            departure_time: datetime('2024-10-21T02:47:27'),
-            arrival_time: datetime('2024-10-21T11:57:27'),
-            duration: 550,
-            price: 1721
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'SEB'})
-        MATCH (destination:Airport {code: 'TNF'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'AA540',
-            departure_time: datetime('2024-10-21T01:02:27'),
-            arrival_time: datetime('2024-10-21T08:20:27'),
-            duration: 438,
-            price: 1498
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'XQL'})
-        MATCH (destination:Airport {code: 'CAP'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'EK815',
-            departure_time: datetime('2024-10-21T02:08:27'),
-            arrival_time: datetime('2024-10-21T09:06:27'),
-            duration: 418,
-            price: 1211
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'CAP'})
-        MATCH (destination:Airport {code: 'ZBB'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'AF545',
-            departure_time: datetime('2024-10-21T00:32:27'),
-            arrival_time: datetime('2024-10-21T04:23:27'),
-            duration: 231,
-            price: 731
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'DMH'})
-        MATCH (destination:Airport {code: 'GJR'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'AF313',
-            departure_time: datetime('2024-10-21T02:29:27'),
-            arrival_time: datetime('2024-10-21T03:42:27'),
-            duration: 73,
-            price: 1503
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'RRC'})
-        MATCH (destination:Airport {code: 'QVP'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'DL323',
-            departure_time: datetime('2024-10-21T00:09:27'),
-            arrival_time: datetime('2024-10-21T04:23:27'),
-            duration: 254,
-            price: 1352
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'XLF'})
-        MATCH (destination:Airport {code: 'RRC'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'DL233',
-            departure_time: datetime('2024-10-20T23:37:27'),
-            arrival_time: datetime('2024-10-21T04:04:27'),
-            duration: 267,
-            price: 1462
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'NIG'})
-        MATCH (destination:Airport {code: 'XIE'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'BA467',
-            departure_time: datetime('2024-10-21T01:49:27'),
-            arrival_time: datetime('2024-10-21T10:01:27'),
-            duration: 492,
-            price: 1421
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'QEL'})
-        MATCH (destination:Airport {code: 'XCX'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'DL887',
-            departure_time: datetime('2024-10-21T01:39:27'),
-            arrival_time: datetime('2024-10-21T09:19:27'),
-            duration: 460,
-            price: 690
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'LRC'})
-        MATCH (destination:Airport {code: 'AXP'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'EK550',
-            departure_time: datetime('2024-10-21T03:06:27'),
-            arrival_time: datetime('2024-10-21T06:35:27'),
-            duration: 209,
-            price: 282
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'YRT'})
-        MATCH (destination:Airport {code: 'FOS'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'EK350',
-            departure_time: datetime('2024-10-21T02:57:27'),
-            arrival_time: datetime('2024-10-21T05:02:27'),
-            duration: 125,
-            price: 948
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'RCY'})
-        MATCH (destination:Airport {code: 'QBX'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'JL930',
-            departure_time: datetime('2024-10-21T00:54:27'),
-            arrival_time: datetime('2024-10-21T05:36:27'),
-            duration: 282,
-            price: 1773
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'CAP'})
-        MATCH (destination:Airport {code: 'DMH'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'DL149',
-            departure_time: datetime('2024-10-21T02:54:27'),
-            arrival_time: datetime('2024-10-21T09:09:27'),
-            duration: 375,
-            price: 1705
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'YRT'})
-        MATCH (destination:Airport {code: 'SEB'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'DL811',
-            departure_time: datetime('2024-10-21T00:56:27'),
-            arrival_time: datetime('2024-10-21T06:48:27'),
-            duration: 352,
-            price: 1072
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'DXH'})
-        MATCH (destination:Airport {code: 'FOS'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'AF159',
-            departure_time: datetime('2024-10-21T02:29:27'),
-            arrival_time: datetime('2024-10-21T06:06:27'),
-            duration: 217,
-            price: 1412
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'QBX'})
-        MATCH (destination:Airport {code: 'NIG'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'DL641',
-            departure_time: datetime('2024-10-21T03:26:27'),
-            arrival_time: datetime('2024-10-21T12:23:27'),
-            duration: 537,
-            price: 1887
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'YRT'})
-        MATCH (destination:Airport {code: 'SEH'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'EK299',
-            departure_time: datetime('2024-10-21T00:44:27'),
-            arrival_time: datetime('2024-10-21T04:11:27'),
-            duration: 207,
-            price: 1343
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'WBS'})
-        MATCH (destination:Airport {code: 'XQL'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'DL990',
-            departure_time: datetime('2024-10-21T02:33:27'),
-            arrival_time: datetime('2024-10-21T11:58:27'),
-            duration: 565,
-            price: 1013
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'UAH'})
-        MATCH (destination:Airport {code: 'QVP'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'JL372',
-            departure_time: datetime('2024-10-20T23:26:27'),
-            arrival_time: datetime('2024-10-21T03:06:27'),
-            duration: 220,
-            price: 958
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'DMH'})
-        MATCH (destination:Airport {code: 'YQG'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'DL796',
-            departure_time: datetime('2024-10-20T23:38:27'),
-            arrival_time: datetime('2024-10-21T02:07:27'),
-            duration: 149,
-            price: 1709
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'GWI'})
-        MATCH (destination:Airport {code: 'FIV'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'AA315',
-            departure_time: datetime('2024-10-21T00:44:27'),
-            arrival_time: datetime('2024-10-21T05:22:27'),
-            duration: 278,
-            price: 201
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'RRC'})
-        MATCH (destination:Airport {code: 'SEH'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'AF224',
-            departure_time: datetime('2024-10-21T00:34:27'),
-            arrival_time: datetime('2024-10-21T06:13:27'),
-            duration: 339,
-            price: 1584
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'KYW'})
-        MATCH (destination:Airport {code: 'QBX'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'DL844',
-            departure_time: datetime('2024-10-20T23:49:27'),
-            arrival_time: datetime('2024-10-21T07:19:27'),
-            duration: 450,
-            price: 1175
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'XPI'})
-        MATCH (destination:Airport {code: 'INA'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'BA205',
-            departure_time: datetime('2024-10-20T23:26:27'),
-            arrival_time: datetime('2024-10-21T09:07:27'),
-            duration: 581,
-            price: 1948
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'SEB'})
-        MATCH (destination:Airport {code: 'SEH'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'DL934',
-            departure_time: datetime('2024-10-21T01:15:27'),
-            arrival_time: datetime('2024-10-21T04:08:27'),
-            duration: 173,
-            price: 725
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'RGF'})
-        MATCH (destination:Airport {code: 'FOS'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'EK978',
-            departure_time: datetime('2024-10-21T03:05:27'),
-            arrival_time: datetime('2024-10-21T06:42:27'),
-            duration: 217,
-            price: 1002
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'XLF'})
-        MATCH (destination:Airport {code: 'RCY'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'DL179',
-            departure_time: datetime('2024-10-21T01:31:27'),
-            arrival_time: datetime('2024-10-21T09:15:27'),
-            duration: 464,
-            price: 413
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'IGZ'})
-        MATCH (destination:Airport {code: 'SEH'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'DL959',
-            departure_time: datetime('2024-10-21T01:26:27'),
-            arrival_time: datetime('2024-10-21T05:11:27'),
-            duration: 225,
-            price: 1222
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'FIV'})
-        MATCH (destination:Airport {code: 'SEH'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'JL626',
-            departure_time: datetime('2024-10-21T03:30:27'),
-            arrival_time: datetime('2024-10-21T04:51:27'),
+            flight_number: 'BA305',
+            departure_time: datetime('2024-10-21T01:28:22'),
+            arrival_time: datetime('2024-10-21T02:49:22'),
             duration: 81,
-            price: 1064
-        }]->(destination)
+            price: 1723
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'KZQ'})
-        MATCH (destination:Airport {code: 'QEL'})
+MATCH (origin:Airport {code: 'SQX'})
+        MATCH (destination:Airport {code: 'ZGP'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'BA594',
-            departure_time: datetime('2024-10-21T02:39:27'),
-            arrival_time: datetime('2024-10-21T05:52:27'),
-            duration: 193,
-            price: 508
-        }]->(destination)
+            flight_number: 'DL836',
+            departure_time: datetime('2024-10-20T23:22:22'),
+            arrival_time: datetime('2024-10-21T05:32:22'),
+            duration: 370,
+            price: 778
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'GZT'})
-        MATCH (destination:Airport {code: 'XIE'})
+MATCH (origin:Airport {code: 'CVK'})
+        MATCH (destination:Airport {code: 'MEI'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'DL606',
-            departure_time: datetime('2024-10-21T01:47:27'),
-            arrival_time: datetime('2024-10-21T03:39:27'),
-            duration: 112,
-            price: 1367
-        }]->(destination)
+            flight_number: 'EK482',
+            departure_time: datetime('2024-10-21T00:43:22'),
+            arrival_time: datetime('2024-10-21T08:44:22'),
+            duration: 481,
+            price: 702
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'XLF'})
-        MATCH (destination:Airport {code: 'XIE'})
+MATCH (origin:Airport {code: 'AWB'})
+        MATCH (destination:Airport {code: 'HXW'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'BA199',
-            departure_time: datetime('2024-10-21T02:56:27'),
-            arrival_time: datetime('2024-10-21T10:10:27'),
-            duration: 434,
-            price: 1288
-        }]->(destination)
+            flight_number: 'BA605',
+            departure_time: datetime('2024-10-20T23:56:22'),
+            arrival_time: datetime('2024-10-21T08:06:22'),
+            duration: 490,
+            price: 1585
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'XLF'})
-        MATCH (destination:Airport {code: 'FOS'})
+MATCH (origin:Airport {code: 'ZQT'})
+        MATCH (destination:Airport {code: 'DUR'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'BA136',
-            departure_time: datetime('2024-10-21T00:01:27'),
-            arrival_time: datetime('2024-10-21T06:32:27'),
-            duration: 391,
-            price: 1120
-        }]->(destination)
+            flight_number: 'JL861',
+            departure_time: datetime('2024-10-20T23:25:22'),
+            arrival_time: datetime('2024-10-21T03:49:22'),
+            duration: 264,
+            price: 603
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'YQG'})
-        MATCH (destination:Airport {code: 'FLA'})
+MATCH (origin:Airport {code: 'PBO'})
+        MATCH (destination:Airport {code: 'CVK'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'DL371',
-            departure_time: datetime('2024-10-21T02:33:27'),
-            arrival_time: datetime('2024-10-21T10:30:27'),
-            duration: 477,
-            price: 1871
-        }]->(destination)
+            flight_number: 'EK483',
+            departure_time: datetime('2024-10-20T23:48:22'),
+            arrival_time: datetime('2024-10-21T06:36:22'),
+            duration: 408,
+            price: 410
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'EDL'})
-        MATCH (destination:Airport {code: 'QEL'})
+MATCH (origin:Airport {code: 'ZQT'})
+        MATCH (destination:Airport {code: 'CVK'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'DL452',
-            departure_time: datetime('2024-10-20T23:49:27'),
-            arrival_time: datetime('2024-10-21T07:37:27'),
-            duration: 468,
-            price: 592
-        }]->(destination)
+            flight_number: 'EK544',
+            departure_time: datetime('2024-10-21T00:54:22'),
+            arrival_time: datetime('2024-10-21T02:26:22'),
+            duration: 92,
+            price: 1089
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'RRC'})
-        MATCH (destination:Airport {code: 'XLF'})
+MATCH (origin:Airport {code: 'CVK'})
+        MATCH (destination:Airport {code: 'SSA'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'AF841',
-            departure_time: datetime('2024-10-21T01:56:27'),
-            arrival_time: datetime('2024-10-21T05:36:27'),
-            duration: 220,
-            price: 1420
-        }]->(destination)
+            flight_number: 'EK820',
+            departure_time: datetime('2024-10-21T02:56:22'),
+            arrival_time: datetime('2024-10-21T11:47:22'),
+            duration: 531,
+            price: 228
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'XLF'})
-        MATCH (destination:Airport {code: 'ZME'})
+MATCH (origin:Airport {code: 'UOK'})
+        MATCH (destination:Airport {code: 'MRW'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'AF212',
-            departure_time: datetime('2024-10-21T02:38:27'),
-            arrival_time: datetime('2024-10-21T09:38:27'),
-            duration: 420,
-            price: 1538
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'IGZ'})
-        MATCH (destination:Airport {code: 'GJR'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'AA929',
-            departure_time: datetime('2024-10-21T02:03:27'),
-            arrival_time: datetime('2024-10-21T04:05:27'),
-            duration: 122,
-            price: 315
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'CAW'})
-        MATCH (destination:Airport {code: 'DXH'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'DL152',
-            departure_time: datetime('2024-10-20T23:45:27'),
-            arrival_time: datetime('2024-10-21T01:16:27'),
-            duration: 91,
-            price: 1796
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'KZQ'})
-        MATCH (destination:Airport {code: 'WBS'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'DL321',
-            departure_time: datetime('2024-10-21T00:10:27'),
-            arrival_time: datetime('2024-10-21T08:02:27'),
-            duration: 472,
-            price: 1538
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'RRC'})
-        MATCH (destination:Airport {code: 'KYW'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'AA869',
-            departure_time: datetime('2024-10-21T02:13:27'),
-            arrival_time: datetime('2024-10-21T08:25:27'),
-            duration: 372,
-            price: 1699
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'LRC'})
-        MATCH (destination:Airport {code: 'PUQ'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'AF871',
-            departure_time: datetime('2024-10-21T03:19:27'),
-            arrival_time: datetime('2024-10-21T10:33:27'),
-            duration: 434,
-            price: 1521
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'UAH'})
-        MATCH (destination:Airport {code: 'DMH'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'BA627',
-            departure_time: datetime('2024-10-21T03:05:27'),
-            arrival_time: datetime('2024-10-21T09:54:27'),
-            duration: 409,
-            price: 464
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'SEH'})
-        MATCH (destination:Airport {code: 'LRM'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'AF380',
-            departure_time: datetime('2024-10-21T00:32:27'),
-            arrival_time: datetime('2024-10-21T02:55:27'),
-            duration: 143,
-            price: 1933
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'ZBB'})
-        MATCH (destination:Airport {code: 'XPI'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'EK859',
-            departure_time: datetime('2024-10-21T03:19:27'),
-            arrival_time: datetime('2024-10-21T05:30:27'),
-            duration: 131,
-            price: 1263
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'ZEA'})
-        MATCH (destination:Airport {code: 'QDP'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'AA196',
-            departure_time: datetime('2024-10-21T01:05:27'),
-            arrival_time: datetime('2024-10-21T10:32:27'),
-            duration: 567,
-            price: 1551
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'EDL'})
-        MATCH (destination:Airport {code: 'GJR'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'JL947',
-            departure_time: datetime('2024-10-21T00:18:27'),
-            arrival_time: datetime('2024-10-21T08:21:27'),
-            duration: 483,
-            price: 712
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'DMH'})
-        MATCH (destination:Airport {code: 'QDP'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'EK527',
-            departure_time: datetime('2024-10-21T02:07:27'),
-            arrival_time: datetime('2024-10-21T10:27:27'),
-            duration: 500,
-            price: 1105
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'LRC'})
-        MATCH (destination:Airport {code: 'CAP'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'BA418',
-            departure_time: datetime('2024-10-21T02:00:27'),
-            arrival_time: datetime('2024-10-21T04:14:27'),
-            duration: 134,
-            price: 873
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'XCX'})
-        MATCH (destination:Airport {code: 'ZEA'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'AA814',
-            departure_time: datetime('2024-10-21T03:30:27'),
-            arrival_time: datetime('2024-10-21T10:47:27'),
-            duration: 437,
-            price: 679
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'DMH'})
-        MATCH (destination:Airport {code: 'FIV'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'BA392',
-            departure_time: datetime('2024-10-21T02:44:27'),
-            arrival_time: datetime('2024-10-21T07:31:27'),
+            flight_number: 'DL316',
+            departure_time: datetime('2024-10-21T01:35:22'),
+            arrival_time: datetime('2024-10-21T06:22:22'),
             duration: 287,
-            price: 1955
-        }]->(destination)
+            price: 954
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'LRC'})
-        MATCH (destination:Airport {code: 'GZT'})
+MATCH (origin:Airport {code: 'CVP'})
+        MATCH (destination:Airport {code: 'WUS'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AA988',
+            departure_time: datetime('2024-10-21T03:04:22'),
+            arrival_time: datetime('2024-10-21T07:33:22'),
+            duration: 269,
+            price: 695
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'KWE'})
+        MATCH (destination:Airport {code: 'KFO'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'JL808',
+            departure_time: datetime('2024-10-21T01:10:22'),
+            arrival_time: datetime('2024-10-21T02:46:22'),
+            duration: 96,
+            price: 802
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'LAF'})
+        MATCH (destination:Airport {code: 'DUR'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AA410',
+            departure_time: datetime('2024-10-20T23:36:22'),
+            arrival_time: datetime('2024-10-21T01:33:22'),
+            duration: 117,
+            price: 401
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'ZQT'})
+        MATCH (destination:Airport {code: 'ERY'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'DL160',
+            departure_time: datetime('2024-10-21T00:42:22'),
+            arrival_time: datetime('2024-10-21T06:46:22'),
+            duration: 364,
+            price: 1433
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'VLU'})
+        MATCH (destination:Airport {code: 'UOK'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'DL707',
+            departure_time: datetime('2024-10-21T01:43:22'),
+            arrival_time: datetime('2024-10-21T05:12:22'),
+            duration: 209,
+            price: 870
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'OXD'})
+        MATCH (destination:Airport {code: 'IEP'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AF906',
+            departure_time: datetime('2024-10-21T00:56:22'),
+            arrival_time: datetime('2024-10-21T10:14:22'),
+            duration: 558,
+            price: 1428
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'DPX'})
+        MATCH (destination:Airport {code: 'XAE'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AF967',
+            departure_time: datetime('2024-10-21T01:53:22'),
+            arrival_time: datetime('2024-10-21T04:01:22'),
+            duration: 128,
+            price: 806
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'AWB'})
+        MATCH (destination:Airport {code: 'RPP'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AF365',
+            departure_time: datetime('2024-10-21T03:12:22'),
+            arrival_time: datetime('2024-10-21T10:12:22'),
+            duration: 420,
+            price: 851
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'DBI'})
+        MATCH (destination:Airport {code: 'DUR'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'BA118',
+            departure_time: datetime('2024-10-21T03:41:22'),
+            arrival_time: datetime('2024-10-21T05:32:22'),
+            duration: 111,
+            price: 896
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'IFC'})
+        MATCH (destination:Airport {code: 'OXD'})
         CREATE (origin)-[:FLIGHT {
             flight_number: 'AA614',
-            departure_time: datetime('2024-10-21T01:05:27'),
-            arrival_time: datetime('2024-10-21T11:04:27'),
-            duration: 599,
-            price: 1413
-        }]->(destination)
+            departure_time: datetime('2024-10-20T23:41:22'),
+            arrival_time: datetime('2024-10-21T04:54:22'),
+            duration: 313,
+            price: 1771
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'ZME'})
-        MATCH (destination:Airport {code: 'SEH'})
+MATCH (origin:Airport {code: 'MRW'})
+        MATCH (destination:Airport {code: 'GEB'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'AA292',
-            departure_time: datetime('2024-10-21T03:32:27'),
-            arrival_time: datetime('2024-10-21T09:36:27'),
-            duration: 364,
-            price: 221
-        }]->(destination)
+            flight_number: 'BA218',
+            departure_time: datetime('2024-10-21T02:15:22'),
+            arrival_time: datetime('2024-10-21T05:46:22'),
+            duration: 211,
+            price: 529
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'RRC'})
-        MATCH (destination:Airport {code: 'FLA'})
+MATCH (origin:Airport {code: 'QON'})
+        MATCH (destination:Airport {code: 'GEB'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'AF310',
-            departure_time: datetime('2024-10-21T02:36:27'),
-            arrival_time: datetime('2024-10-21T03:51:27'),
-            duration: 75,
-            price: 358
-        }]->(destination)
+            flight_number: 'BA635',
+            departure_time: datetime('2024-10-21T02:58:22'),
+            arrival_time: datetime('2024-10-21T11:23:22'),
+            duration: 505,
+            price: 1976
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'GZT'})
-        MATCH (destination:Airport {code: 'RGF'})
+MATCH (origin:Airport {code: 'AWB'})
+        MATCH (destination:Airport {code: 'DBI'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'EK591',
-            departure_time: datetime('2024-10-20T23:50:27'),
-            arrival_time: datetime('2024-10-21T08:33:27'),
-            duration: 523,
-            price: 1567
-        }]->(destination)
+            flight_number: 'DL152',
+            departure_time: datetime('2024-10-21T02:42:22'),
+            arrival_time: datetime('2024-10-21T07:08:22'),
+            duration: 266,
+            price: 835
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'ZME'})
-        MATCH (destination:Airport {code: 'CFR'})
+MATCH (origin:Airport {code: 'KFO'})
+        MATCH (destination:Airport {code: 'LEP'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'EK902',
-            departure_time: datetime('2024-10-21T01:33:27'),
-            arrival_time: datetime('2024-10-21T11:32:27'),
-            duration: 599,
-            price: 1403
-        }]->(destination)
+            flight_number: 'EK614',
+            departure_time: datetime('2024-10-21T02:02:22'),
+            arrival_time: datetime('2024-10-21T06:21:22'),
+            duration: 259,
+            price: 1242
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'GJR'})
-        MATCH (destination:Airport {code: 'YRT'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'AA747',
-            departure_time: datetime('2024-10-21T02:47:27'),
-            arrival_time: datetime('2024-10-21T08:58:27'),
-            duration: 371,
-            price: 753
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'EDL'})
-        MATCH (destination:Airport {code: 'GWI'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'JL611',
-            departure_time: datetime('2024-10-21T00:36:27'),
-            arrival_time: datetime('2024-10-21T09:03:27'),
-            duration: 507,
-            price: 736
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'GJR'})
-        MATCH (destination:Airport {code: 'OOT'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'BA943',
-            departure_time: datetime('2024-10-21T02:54:27'),
-            arrival_time: datetime('2024-10-21T07:40:27'),
-            duration: 286,
-            price: 1419
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'DXH'})
-        MATCH (destination:Airport {code: 'XCX'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'BA853',
-            departure_time: datetime('2024-10-21T00:35:27'),
-            arrival_time: datetime('2024-10-21T09:33:27'),
-            duration: 538,
-            price: 1723
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'CMZ'})
-        MATCH (destination:Airport {code: 'RCY'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'AA796',
-            departure_time: datetime('2024-10-21T02:56:27'),
-            arrival_time: datetime('2024-10-21T05:17:27'),
-            duration: 141,
-            price: 1763
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'CAP'})
-        MATCH (destination:Airport {code: 'TNF'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'AF863',
-            departure_time: datetime('2024-10-21T01:18:27'),
-            arrival_time: datetime('2024-10-21T10:36:27'),
-            duration: 558,
-            price: 491
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'AXP'})
-        MATCH (destination:Airport {code: 'INA'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'DL992',
-            departure_time: datetime('2024-10-20T23:11:27'),
-            arrival_time: datetime('2024-10-21T03:07:27'),
-            duration: 236,
-            price: 423
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'QDP'})
-        MATCH (destination:Airport {code: 'FIV'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'AF349',
-            departure_time: datetime('2024-10-21T00:16:27'),
-            arrival_time: datetime('2024-10-21T02:02:27'),
-            duration: 106,
-            price: 654
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'YQG'})
-        MATCH (destination:Airport {code: 'SEB'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'EK431',
-            departure_time: datetime('2024-10-21T02:56:27'),
-            arrival_time: datetime('2024-10-21T10:16:27'),
-            duration: 440,
-            price: 447
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'INA'})
-        MATCH (destination:Airport {code: 'HTO'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'AA128',
-            departure_time: datetime('2024-10-21T03:24:27'),
-            arrival_time: datetime('2024-10-21T10:48:27'),
-            duration: 444,
-            price: 956
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'GZT'})
-        MATCH (destination:Airport {code: 'UAH'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'JL973',
-            departure_time: datetime('2024-10-21T03:28:27'),
-            arrival_time: datetime('2024-10-21T07:50:27'),
-            duration: 262,
-            price: 778
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'TNF'})
-        MATCH (destination:Airport {code: 'WBS'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'AA511',
-            departure_time: datetime('2024-10-21T01:28:27'),
-            arrival_time: datetime('2024-10-21T04:31:27'),
-            duration: 183,
-            price: 575
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'MFE'})
-        MATCH (destination:Airport {code: 'SEB'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'BA216',
-            departure_time: datetime('2024-10-21T02:12:27'),
-            arrival_time: datetime('2024-10-21T04:58:27'),
-            duration: 166,
-            price: 1056
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'QEL'})
-        MATCH (destination:Airport {code: 'SEH'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'JL269',
-            departure_time: datetime('2024-10-21T01:33:27'),
-            arrival_time: datetime('2024-10-21T08:00:27'),
-            duration: 387,
-            price: 662
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'PUQ'})
-        MATCH (destination:Airport {code: 'GWI'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'JL882',
-            departure_time: datetime('2024-10-21T00:09:27'),
-            arrival_time: datetime('2024-10-21T03:41:27'),
-            duration: 212,
-            price: 526
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'EDL'})
-        MATCH (destination:Airport {code: 'IGZ'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'AF506',
-            departure_time: datetime('2024-10-21T01:46:27'),
-            arrival_time: datetime('2024-10-21T07:41:27'),
-            duration: 355,
-            price: 610
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'LRC'})
-        MATCH (destination:Airport {code: 'YMQ'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'AF145',
-            departure_time: datetime('2024-10-21T01:08:27'),
-            arrival_time: datetime('2024-10-21T10:33:27'),
-            duration: 565,
-            price: 1942
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'IGZ'})
-        MATCH (destination:Airport {code: 'XNJ'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'AA682',
-            departure_time: datetime('2024-10-21T02:16:27'),
-            arrival_time: datetime('2024-10-21T05:30:27'),
-            duration: 194,
-            price: 738
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'LRM'})
-        MATCH (destination:Airport {code: 'GWI'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'EK395',
-            departure_time: datetime('2024-10-21T01:59:27'),
-            arrival_time: datetime('2024-10-21T05:35:27'),
-            duration: 216,
-            price: 606
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'XCX'})
-        MATCH (destination:Airport {code: 'CAP'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'DL950',
-            departure_time: datetime('2024-10-21T01:59:27'),
-            arrival_time: datetime('2024-10-21T04:09:27'),
-            duration: 130,
-            price: 1376
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'INA'})
-        MATCH (destination:Airport {code: 'GWI'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'AA494',
-            departure_time: datetime('2024-10-21T00:12:27'),
-            arrival_time: datetime('2024-10-21T05:20:27'),
-            duration: 308,
-            price: 596
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'HTO'})
-        MATCH (destination:Airport {code: 'ZEA'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'AF250',
-            departure_time: datetime('2024-10-21T01:10:27'),
-            arrival_time: datetime('2024-10-21T05:31:27'),
-            duration: 261,
-            price: 1646
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'YRT'})
-        MATCH (destination:Airport {code: 'IGZ'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'DL948',
-            departure_time: datetime('2024-10-21T02:41:27'),
-            arrival_time: datetime('2024-10-21T08:35:27'),
-            duration: 354,
-            price: 1742
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'GJR'})
-        MATCH (destination:Airport {code: 'QEL'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'BA478',
-            departure_time: datetime('2024-10-20T23:35:27'),
-            arrival_time: datetime('2024-10-21T06:37:27'),
-            duration: 422,
-            price: 1061
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'KZQ'})
-        MATCH (destination:Airport {code: 'XQL'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'AA194',
-            departure_time: datetime('2024-10-20T23:50:27'),
-            arrival_time: datetime('2024-10-21T06:53:27'),
-            duration: 423,
-            price: 950
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'PUQ'})
-        MATCH (destination:Airport {code: 'KZQ'})
-        CREATE (origin)-[:FLIGHT {
-            flight_number: 'AA845',
-            departure_time: datetime('2024-10-21T03:04:27'),
-            arrival_time: datetime('2024-10-21T10:07:27'),
-            duration: 423,
-            price: 1975
-        }]->(destination)
-
-MATCH (origin:Airport {code: 'QBX'})
-        MATCH (destination:Airport {code: 'ZBB'})
+MATCH (origin:Airport {code: 'JBW'})
+        MATCH (destination:Airport {code: 'WFC'})
         CREATE (origin)-[:FLIGHT {
             flight_number: 'BA479',
-            departure_time: datetime('2024-10-21T02:52:27'),
-            arrival_time: datetime('2024-10-21T11:48:27'),
-            duration: 536,
-            price: 1361
-        }]->(destination)
+            departure_time: datetime('2024-10-21T01:20:22'),
+            arrival_time: datetime('2024-10-21T05:18:22'),
+            duration: 238,
+            price: 1118
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'MFE'})
-        MATCH (destination:Airport {code: 'KZQ'})
+MATCH (origin:Airport {code: 'EOK'})
+        MATCH (destination:Airport {code: 'AWB'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'BA996',
-            departure_time: datetime('2024-10-21T02:39:27'),
-            arrival_time: datetime('2024-10-21T08:46:27'),
-            duration: 367,
-            price: 1194
-        }]->(destination)
+            flight_number: 'AA851',
+            departure_time: datetime('2024-10-21T03:43:22'),
+            arrival_time: datetime('2024-10-21T08:58:22'),
+            duration: 315,
+            price: 1792
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'PUQ'})
-        MATCH (destination:Airport {code: 'KYW'})
+MATCH (origin:Airport {code: 'ZCB'})
+        MATCH (destination:Airport {code: 'RPP'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'DL313',
-            departure_time: datetime('2024-10-21T01:28:27'),
-            arrival_time: datetime('2024-10-21T03:38:27'),
-            duration: 130,
-            price: 1187
-        }]->(destination)
+            flight_number: 'AF273',
+            departure_time: datetime('2024-10-21T02:37:22'),
+            arrival_time: datetime('2024-10-21T06:29:22'),
+            duration: 232,
+            price: 1169
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'IGZ'})
-        MATCH (destination:Airport {code: 'DXH'})
+MATCH (origin:Airport {code: 'EOK'})
+        MATCH (destination:Airport {code: 'ERY'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'EK618',
-            departure_time: datetime('2024-10-21T03:27:27'),
-            arrival_time: datetime('2024-10-21T12:43:27'),
-            duration: 556,
-            price: 1393
-        }]->(destination)
+            flight_number: 'AF663',
+            departure_time: datetime('2024-10-21T03:27:22'),
+            arrival_time: datetime('2024-10-21T06:32:22'),
+            duration: 185,
+            price: 581
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'GJR'})
-        MATCH (destination:Airport {code: 'MFE'})
+MATCH (origin:Airport {code: 'ZQT'})
+        MATCH (destination:Airport {code: 'ERY'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'AF889',
-            departure_time: datetime('2024-10-21T01:33:27'),
-            arrival_time: datetime('2024-10-21T03:14:27'),
-            duration: 101,
+            flight_number: 'AA485',
+            departure_time: datetime('2024-10-21T03:10:22'),
+            arrival_time: datetime('2024-10-21T11:19:22'),
+            duration: 489,
+            price: 1612
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'WFC'})
+        MATCH (destination:Airport {code: 'BZB'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AF366',
+            departure_time: datetime('2024-10-21T03:41:22'),
+            arrival_time: datetime('2024-10-21T13:15:22'),
+            duration: 574,
+            price: 1846
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'PHF'})
+        MATCH (destination:Airport {code: 'XKQ'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'EK209',
+            departure_time: datetime('2024-10-21T02:22:22'),
+            arrival_time: datetime('2024-10-21T09:33:22'),
+            duration: 431,
+            price: 1407
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'WUS'})
+        MATCH (destination:Airport {code: 'GEB'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AA121',
+            departure_time: datetime('2024-10-21T01:28:22'),
+            arrival_time: datetime('2024-10-21T03:57:22'),
+            duration: 149,
+            price: 1231
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'PHF'})
+        MATCH (destination:Airport {code: 'ZCB'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AF303',
+            departure_time: datetime('2024-10-21T00:00:22'),
+            arrival_time: datetime('2024-10-21T07:47:22'),
+            duration: 467,
+            price: 1321
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'HHG'})
+        MATCH (destination:Airport {code: 'EOK'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AF380',
+            departure_time: datetime('2024-10-21T00:48:22'),
+            arrival_time: datetime('2024-10-21T02:20:22'),
+            duration: 92,
+            price: 785
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'PKR'})
+        MATCH (destination:Airport {code: 'PHF'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'EK253',
+            departure_time: datetime('2024-10-21T00:36:22'),
+            arrival_time: datetime('2024-10-21T05:24:22'),
+            duration: 288,
+            price: 481
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'XAE'})
+        MATCH (destination:Airport {code: 'XSJ'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'JL949',
+            departure_time: datetime('2024-10-21T00:06:22'),
+            arrival_time: datetime('2024-10-21T09:10:22'),
+            duration: 544,
+            price: 556
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'NGA'})
+        MATCH (destination:Airport {code: 'JLH'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'DL504',
+            departure_time: datetime('2024-10-21T02:49:22'),
+            arrival_time: datetime('2024-10-21T05:57:22'),
+            duration: 188,
+            price: 1225
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'PBO'})
+        MATCH (destination:Airport {code: 'IFC'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'EK207',
+            departure_time: datetime('2024-10-21T00:28:22'),
+            arrival_time: datetime('2024-10-21T07:09:22'),
+            duration: 401,
+            price: 825
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'KFO'})
+        MATCH (destination:Airport {code: 'NGA'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'BA866',
+            departure_time: datetime('2024-10-21T03:03:22'),
+            arrival_time: datetime('2024-10-21T04:27:22'),
+            duration: 84,
+            price: 740
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'JQX'})
+        MATCH (destination:Airport {code: 'NGA'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AA695',
+            departure_time: datetime('2024-10-21T01:59:22'),
+            arrival_time: datetime('2024-10-21T11:46:22'),
+            duration: 587,
+            price: 863
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'DPX'})
+        MATCH (destination:Airport {code: 'XKQ'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'JL838',
+            departure_time: datetime('2024-10-21T01:34:22'),
+            arrival_time: datetime('2024-10-21T10:04:22'),
+            duration: 510,
+            price: 1568
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'CVK'})
+        MATCH (destination:Airport {code: 'PHF'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AF219',
+            departure_time: datetime('2024-10-21T03:02:22'),
+            arrival_time: datetime('2024-10-21T06:23:22'),
+            duration: 201,
+            price: 865
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'OXD'})
+        MATCH (destination:Airport {code: 'QON'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AF292',
+            departure_time: datetime('2024-10-21T01:46:22'),
+            arrival_time: datetime('2024-10-21T03:58:22'),
+            duration: 132,
+            price: 828
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'ONQ'})
+        MATCH (destination:Airport {code: 'VLU'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'DL232',
+            departure_time: datetime('2024-10-21T00:31:22'),
+            arrival_time: datetime('2024-10-21T05:02:22'),
+            duration: 271,
+            price: 1524
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'CVP'})
+        MATCH (destination:Airport {code: 'MRW'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'JL808',
+            departure_time: datetime('2024-10-21T00:55:22'),
+            arrival_time: datetime('2024-10-21T06:21:22'),
+            duration: 326,
+            price: 1537
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'XAE'})
+        MATCH (destination:Airport {code: 'TPA'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AF387',
+            departure_time: datetime('2024-10-21T02:14:22'),
+            arrival_time: datetime('2024-10-21T09:13:22'),
+            duration: 419,
+            price: 1224
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'BZB'})
+        MATCH (destination:Airport {code: 'CVP'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'DL463',
+            departure_time: datetime('2024-10-21T01:51:22'),
+            arrival_time: datetime('2024-10-21T08:16:22'),
+            duration: 385,
+            price: 525
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'CVP'})
+        MATCH (destination:Airport {code: 'XSJ'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'BA997',
+            departure_time: datetime('2024-10-20T23:56:22'),
+            arrival_time: datetime('2024-10-21T06:19:22'),
+            duration: 383,
+            price: 1758
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'JXA'})
+        MATCH (destination:Airport {code: 'KFO'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'JL363',
+            departure_time: datetime('2024-10-21T00:39:22'),
+            arrival_time: datetime('2024-10-21T04:24:22'),
+            duration: 225,
+            price: 1976
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'JBW'})
+        MATCH (destination:Airport {code: 'HHG'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AF863',
+            departure_time: datetime('2024-10-21T03:00:22'),
+            arrival_time: datetime('2024-10-21T09:55:22'),
+            duration: 415,
+            price: 505
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'MEI'})
+        MATCH (destination:Airport {code: 'TPA'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'JL648',
+            departure_time: datetime('2024-10-21T03:07:22'),
+            arrival_time: datetime('2024-10-21T06:32:22'),
+            duration: 205,
+            price: 1517
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'EOK'})
+        MATCH (destination:Airport {code: 'AWB'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AA153',
+            departure_time: datetime('2024-10-21T00:08:22'),
+            arrival_time: datetime('2024-10-21T03:32:22'),
+            duration: 204,
+            price: 1217
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'HXW'})
+        MATCH (destination:Airport {code: 'PBO'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AF244',
+            departure_time: datetime('2024-10-21T01:19:22'),
+            arrival_time: datetime('2024-10-21T09:14:22'),
+            duration: 475,
+            price: 1211
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'JXA'})
+        MATCH (destination:Airport {code: 'ONQ'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AA661',
+            departure_time: datetime('2024-10-21T00:16:22'),
+            arrival_time: datetime('2024-10-21T08:23:22'),
+            duration: 487,
+            price: 621
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'SQX'})
+        MATCH (destination:Airport {code: 'HHG'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AA822',
+            departure_time: datetime('2024-10-20T23:23:22'),
+            arrival_time: datetime('2024-10-21T01:17:22'),
+            duration: 114,
+            price: 924
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'ZGP'})
+        MATCH (destination:Airport {code: 'SSA'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'DL407',
+            departure_time: datetime('2024-10-21T02:33:22'),
+            arrival_time: datetime('2024-10-21T06:44:22'),
+            duration: 251,
+            price: 232
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'LEP'})
+        MATCH (destination:Airport {code: 'TPA'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AF908',
+            departure_time: datetime('2024-10-20T23:56:22'),
+            arrival_time: datetime('2024-10-21T02:25:22'),
+            duration: 149,
+            price: 700
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'OXD'})
+        MATCH (destination:Airport {code: 'FWL'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'EK273',
+            departure_time: datetime('2024-10-21T02:03:22'),
+            arrival_time: datetime('2024-10-21T09:52:22'),
+            duration: 469,
+            price: 1572
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'ONQ'})
+        MATCH (destination:Airport {code: 'HHG'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'BA899',
+            departure_time: datetime('2024-10-21T03:14:22'),
+            arrival_time: datetime('2024-10-21T11:59:22'),
+            duration: 525,
+            price: 393
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'ZQT'})
+        MATCH (destination:Airport {code: 'KWE'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'EK423',
+            departure_time: datetime('2024-10-21T03:32:22'),
+            arrival_time: datetime('2024-10-21T06:15:22'),
+            duration: 163,
+            price: 1458
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'XLN'})
+        MATCH (destination:Airport {code: 'PKR'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'EK280',
+            departure_time: datetime('2024-10-21T02:34:22'),
+            arrival_time: datetime('2024-10-21T12:14:22'),
+            duration: 580,
+            price: 1503
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'ERY'})
+        MATCH (destination:Airport {code: 'NGA'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'BA359',
+            departure_time: datetime('2024-10-20T23:30:22'),
+            arrival_time: datetime('2024-10-21T08:53:22'),
+            duration: 563,
+            price: 1147
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'PBO'})
+        MATCH (destination:Airport {code: 'ERY'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'JL671',
+            departure_time: datetime('2024-10-21T02:49:22'),
+            arrival_time: datetime('2024-10-21T12:00:22'),
+            duration: 551,
+            price: 1507
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'XKQ'})
+        MATCH (destination:Airport {code: 'ONQ'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AA776',
+            departure_time: datetime('2024-10-21T01:06:22'),
+            arrival_time: datetime('2024-10-21T06:20:22'),
+            duration: 314,
+            price: 1248
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'PHF'})
+        MATCH (destination:Airport {code: 'EOK'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AF806',
+            departure_time: datetime('2024-10-21T00:42:22'),
+            arrival_time: datetime('2024-10-21T07:44:22'),
+            duration: 422,
+            price: 904
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'ZQT'})
+        MATCH (destination:Airport {code: 'NGA'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'EK223',
+            departure_time: datetime('2024-10-21T03:33:22'),
+            arrival_time: datetime('2024-10-21T11:46:22'),
+            duration: 493,
+            price: 1177
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'JQX'})
+        MATCH (destination:Airport {code: 'ERY'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AA616',
+            departure_time: datetime('2024-10-21T02:42:22'),
+            arrival_time: datetime('2024-10-21T12:32:22'),
+            duration: 590,
+            price: 1368
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'ZGP'})
+        MATCH (destination:Airport {code: 'HON'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AF978',
+            departure_time: datetime('2024-10-21T01:29:22'),
+            arrival_time: datetime('2024-10-21T10:18:22'),
+            duration: 529,
+            price: 296
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'GEB'})
+        MATCH (destination:Airport {code: 'ZGP'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AA699',
+            departure_time: datetime('2024-10-21T00:27:22'),
+            arrival_time: datetime('2024-10-21T03:27:22'),
+            duration: 180,
             price: 912
-        }]->(destination)
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'ZME'})
-        MATCH (destination:Airport {code: 'FLA'})
+MATCH (origin:Airport {code: 'XSJ'})
+        MATCH (destination:Airport {code: 'HON'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'JL271',
-            departure_time: datetime('2024-10-21T00:51:27'),
-            arrival_time: datetime('2024-10-21T03:35:27'),
-            duration: 164,
-            price: 259
-        }]->(destination)
+            flight_number: 'DL553',
+            departure_time: datetime('2024-10-21T00:58:22'),
+            arrival_time: datetime('2024-10-21T06:33:22'),
+            duration: 335,
+            price: 1506
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'CFR'})
-        MATCH (destination:Airport {code: 'GZT'})
+MATCH (origin:Airport {code: 'TPA'})
+        MATCH (destination:Airport {code: 'ERY'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'DL508',
-            departure_time: datetime('2024-10-21T02:14:27'),
-            arrival_time: datetime('2024-10-21T06:22:27'),
-            duration: 248,
-            price: 1996
-        }]->(destination)
+            flight_number: 'DL693',
+            departure_time: datetime('2024-10-21T01:49:22'),
+            arrival_time: datetime('2024-10-21T08:58:22'),
+            duration: 429,
+            price: 1529
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'FIV'})
-        MATCH (destination:Airport {code: 'GJR'})
+MATCH (origin:Airport {code: 'SQX'})
+        MATCH (destination:Airport {code: 'ZQT'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'BA743',
-            departure_time: datetime('2024-10-21T02:52:27'),
-            arrival_time: datetime('2024-10-21T07:59:27'),
-            duration: 307,
-            price: 921
-        }]->(destination)
+            flight_number: 'DL959',
+            departure_time: datetime('2024-10-21T02:49:22'),
+            arrival_time: datetime('2024-10-21T09:34:22'),
+            duration: 405,
+            price: 1258
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'MFE'})
-        MATCH (destination:Airport {code: 'XCX'})
+MATCH (origin:Airport {code: 'IFC'})
+        MATCH (destination:Airport {code: 'FSW'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'AA493',
-            departure_time: datetime('2024-10-20T23:40:27'),
-            arrival_time: datetime('2024-10-21T04:45:27'),
-            duration: 305,
-            price: 224
-        }]->(destination)
+            flight_number: 'DL925',
+            departure_time: datetime('2024-10-21T03:34:22'),
+            arrival_time: datetime('2024-10-21T11:31:22'),
+            duration: 477,
+            price: 832
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'PUQ'})
-        MATCH (destination:Airport {code: 'CMZ'})
+MATCH (origin:Airport {code: 'ZCB'})
+        MATCH (destination:Airport {code: 'ZGP'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'EK143',
-            departure_time: datetime('2024-10-21T01:38:27'),
-            arrival_time: datetime('2024-10-21T10:41:27'),
-            duration: 543,
-            price: 956
-        }]->(destination)
+            flight_number: 'DL288',
+            departure_time: datetime('2024-10-21T03:07:22'),
+            arrival_time: datetime('2024-10-21T04:29:22'),
+            duration: 82,
+            price: 587
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'FIV'})
-        MATCH (destination:Airport {code: 'CMZ'})
+MATCH (origin:Airport {code: 'SQX'})
+        MATCH (destination:Airport {code: 'DPX'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'EK340',
-            departure_time: datetime('2024-10-21T02:35:27'),
-            arrival_time: datetime('2024-10-21T09:05:27'),
-            duration: 390,
-            price: 1345
-        }]->(destination)
+            flight_number: 'JL589',
+            departure_time: datetime('2024-10-21T02:35:22'),
+            arrival_time: datetime('2024-10-21T07:57:22'),
+            duration: 322,
+            price: 1642
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'XIE'})
-        MATCH (destination:Airport {code: 'CFR'})
+MATCH (origin:Airport {code: 'PBO'})
+        MATCH (destination:Airport {code: 'JLH'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'AA762',
-            departure_time: datetime('2024-10-21T01:39:27'),
-            arrival_time: datetime('2024-10-21T04:55:27'),
-            duration: 196,
-            price: 1902
-        }]->(destination)
+            flight_number: 'AF281',
+            departure_time: datetime('2024-10-20T23:55:22'),
+            arrival_time: datetime('2024-10-21T01:23:22'),
+            duration: 88,
+            price: 1058
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'HTO'})
-        MATCH (destination:Airport {code: 'ZBB'})
+MATCH (origin:Airport {code: 'ZGP'})
+        MATCH (destination:Airport {code: 'DBI'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'BA614',
-            departure_time: datetime('2024-10-20T23:49:27'),
-            arrival_time: datetime('2024-10-21T06:47:27'),
-            duration: 418,
-            price: 763
-        }]->(destination)
+            flight_number: 'AA374',
+            departure_time: datetime('2024-10-21T01:56:22'),
+            arrival_time: datetime('2024-10-21T06:10:22'),
+            duration: 254,
+            price: 326
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'CFR'})
-        MATCH (destination:Airport {code: 'YRT'})
+MATCH (origin:Airport {code: 'LEP'})
+        MATCH (destination:Airport {code: 'DPX'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'DL304',
-            departure_time: datetime('2024-10-21T00:55:27'),
-            arrival_time: datetime('2024-10-21T07:43:27'),
-            duration: 408,
-            price: 1198
-        }]->(destination)
+            flight_number: 'AA273',
+            departure_time: datetime('2024-10-21T01:22:22'),
+            arrival_time: datetime('2024-10-21T06:50:22'),
+            duration: 328,
+            price: 387
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'FIV'})
-        MATCH (destination:Airport {code: 'NIG'})
+MATCH (origin:Airport {code: 'SQX'})
+        MATCH (destination:Airport {code: 'EOK'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'BA592',
-            departure_time: datetime('2024-10-20T23:20:27'),
-            arrival_time: datetime('2024-10-21T01:45:27'),
-            duration: 145,
-            price: 1171
-        }]->(destination)
+            flight_number: 'BA266',
+            departure_time: datetime('2024-10-21T00:44:22'),
+            arrival_time: datetime('2024-10-21T08:15:22'),
+            duration: 451,
+            price: 1964
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'TNF'})
-        MATCH (destination:Airport {code: 'RRC'})
+MATCH (origin:Airport {code: 'MRW'})
+        MATCH (destination:Airport {code: 'XKQ'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AA994',
+            departure_time: datetime('2024-10-21T03:24:22'),
+            arrival_time: datetime('2024-10-21T05:13:22'),
+            duration: 109,
+            price: 1273
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'ZGP'})
+        MATCH (destination:Airport {code: 'DBI'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'BA364',
+            departure_time: datetime('2024-10-21T01:57:22'),
+            arrival_time: datetime('2024-10-21T06:16:22'),
+            duration: 259,
+            price: 1427
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'PHF'})
+        MATCH (destination:Airport {code: 'MEI'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'DL919',
+            departure_time: datetime('2024-10-21T03:09:22'),
+            arrival_time: datetime('2024-10-21T08:31:22'),
+            duration: 322,
+            price: 1052
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'SSA'})
+        MATCH (destination:Airport {code: 'NGA'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'DL495',
+            departure_time: datetime('2024-10-21T03:37:22'),
+            arrival_time: datetime('2024-10-21T07:55:22'),
+            duration: 258,
+            price: 1947
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'GEB'})
+        MATCH (destination:Airport {code: 'JQX'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AA291',
+            departure_time: datetime('2024-10-21T00:58:22'),
+            arrival_time: datetime('2024-10-21T09:41:22'),
+            duration: 523,
+            price: 1861
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'HHG'})
+        MATCH (destination:Airport {code: 'ERY'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'BA186',
+            departure_time: datetime('2024-10-21T02:53:22'),
+            arrival_time: datetime('2024-10-21T11:42:22'),
+            duration: 529,
+            price: 1323
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'DBI'})
+        MATCH (destination:Airport {code: 'XKQ'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AF844',
+            departure_time: datetime('2024-10-21T00:25:22'),
+            arrival_time: datetime('2024-10-21T07:02:22'),
+            duration: 397,
+            price: 284
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'IFC'})
+        MATCH (destination:Airport {code: 'ONQ'})
         CREATE (origin)-[:FLIGHT {
             flight_number: 'AA574',
-            departure_time: datetime('2024-10-21T01:26:27'),
-            arrival_time: datetime('2024-10-21T09:08:27'),
-            duration: 462,
-            price: 1274
-        }]->(destination)
+            departure_time: datetime('2024-10-21T01:55:22'),
+            arrival_time: datetime('2024-10-21T05:42:22'),
+            duration: 227,
+            price: 290
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'KYW'})
-        MATCH (destination:Airport {code: 'RGF'})
+MATCH (origin:Airport {code: 'TPA'})
+        MATCH (destination:Airport {code: 'XAE'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'DL808',
-            departure_time: datetime('2024-10-21T01:55:27'),
-            arrival_time: datetime('2024-10-21T09:56:27'),
-            duration: 481,
-            price: 1911
-        }]->(destination)
+            flight_number: 'EK621',
+            departure_time: datetime('2024-10-20T23:47:22'),
+            arrival_time: datetime('2024-10-21T09:41:22'),
+            duration: 594,
+            price: 1527
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'CAW'})
-        MATCH (destination:Airport {code: 'GJR'})
+MATCH (origin:Airport {code: 'KWE'})
+        MATCH (destination:Airport {code: 'UUX'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'DL338',
-            departure_time: datetime('2024-10-21T00:57:27'),
-            arrival_time: datetime('2024-10-21T08:13:27'),
-            duration: 436,
-            price: 1203
-        }]->(destination)
+            flight_number: 'AF307',
+            departure_time: datetime('2024-10-21T03:11:22'),
+            arrival_time: datetime('2024-10-21T11:03:22'),
+            duration: 472,
+            price: 1018
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'OOT'})
-        MATCH (destination:Airport {code: 'FIV'})
+MATCH (origin:Airport {code: 'NGA'})
+        MATCH (destination:Airport {code: 'MEI'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'DL698',
-            departure_time: datetime('2024-10-20T23:20:27'),
-            arrival_time: datetime('2024-10-21T02:17:27'),
-            duration: 177,
-            price: 734
-        }]->(destination)
+            flight_number: 'DL386',
+            departure_time: datetime('2024-10-21T01:41:22'),
+            arrival_time: datetime('2024-10-21T08:33:22'),
+            duration: 412,
+            price: 1929
+        }]->(destination);
 
-MATCH (origin:Airport {code: 'XLF'})
-        MATCH (destination:Airport {code: 'XNJ'})
+MATCH (origin:Airport {code: 'BZB'})
+        MATCH (destination:Airport {code: 'DPX'})
         CREATE (origin)-[:FLIGHT {
-            flight_number: 'BA575',
-            departure_time: datetime('2024-10-20T23:52:27'),
-            arrival_time: datetime('2024-10-21T08:04:27'),
-            duration: 492,
-            price: 1764
-        }]->(destination)
+            flight_number: 'AA454',
+            departure_time: datetime('2024-10-21T00:02:22'),
+            arrival_time: datetime('2024-10-21T05:24:22'),
+            duration: 322,
+            price: 1223
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'BZB'})
+        MATCH (destination:Airport {code: 'ZGP'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AF684',
+            departure_time: datetime('2024-10-21T02:51:22'),
+            arrival_time: datetime('2024-10-21T06:42:22'),
+            duration: 231,
+            price: 1963
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'RPP'})
+        MATCH (destination:Airport {code: 'FWL'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'DL468',
+            departure_time: datetime('2024-10-21T01:51:22'),
+            arrival_time: datetime('2024-10-21T09:02:22'),
+            duration: 431,
+            price: 289
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'DBI'})
+        MATCH (destination:Airport {code: 'MRW'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'EK587',
+            departure_time: datetime('2024-10-21T00:34:22'),
+            arrival_time: datetime('2024-10-21T04:25:22'),
+            duration: 231,
+            price: 1493
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'SQX'})
+        MATCH (destination:Airport {code: 'ZGP'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'DL767',
+            departure_time: datetime('2024-10-21T03:28:22'),
+            arrival_time: datetime('2024-10-21T12:42:22'),
+            duration: 554,
+            price: 1966
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'CVK'})
+        MATCH (destination:Airport {code: 'IEP'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'BA435',
+            departure_time: datetime('2024-10-21T02:19:22'),
+            arrival_time: datetime('2024-10-21T06:41:22'),
+            duration: 262,
+            price: 1116
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'KFO'})
+        MATCH (destination:Airport {code: 'WUS'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'DL830',
+            departure_time: datetime('2024-10-21T01:29:22'),
+            arrival_time: datetime('2024-10-21T10:35:22'),
+            duration: 546,
+            price: 1473
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'VLU'})
+        MATCH (destination:Airport {code: 'CVK'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'BA909',
+            departure_time: datetime('2024-10-20T23:37:22'),
+            arrival_time: datetime('2024-10-21T04:58:22'),
+            duration: 321,
+            price: 599
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'XKQ'})
+        MATCH (destination:Airport {code: 'EOK'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AF379',
+            departure_time: datetime('2024-10-21T01:06:22'),
+            arrival_time: datetime('2024-10-21T08:57:22'),
+            duration: 471,
+            price: 809
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'WFC'})
+        MATCH (destination:Airport {code: 'VLU'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AF858',
+            departure_time: datetime('2024-10-21T00:31:22'),
+            arrival_time: datetime('2024-10-21T07:12:22'),
+            duration: 401,
+            price: 1585
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'HXW'})
+        MATCH (destination:Airport {code: 'TPA'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AF394',
+            departure_time: datetime('2024-10-21T02:00:22'),
+            arrival_time: datetime('2024-10-21T07:20:22'),
+            duration: 320,
+            price: 1255
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'ZCB'})
+        MATCH (destination:Airport {code: 'ZGP'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AA497',
+            departure_time: datetime('2024-10-21T03:01:22'),
+            arrival_time: datetime('2024-10-21T09:08:22'),
+            duration: 367,
+            price: 294
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'BZB'})
+        MATCH (destination:Airport {code: 'DBI'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'BA730',
+            departure_time: datetime('2024-10-21T00:15:22'),
+            arrival_time: datetime('2024-10-21T05:58:22'),
+            duration: 343,
+            price: 1199
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'MRW'})
+        MATCH (destination:Airport {code: 'ZQT'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AF276',
+            departure_time: datetime('2024-10-21T03:17:22'),
+            arrival_time: datetime('2024-10-21T04:19:22'),
+            duration: 62,
+            price: 557
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'DUR'})
+        MATCH (destination:Airport {code: 'CVP'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AA907',
+            departure_time: datetime('2024-10-21T02:06:22'),
+            arrival_time: datetime('2024-10-21T03:56:22'),
+            duration: 110,
+            price: 1987
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'VLU'})
+        MATCH (destination:Airport {code: 'ONQ'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AF923',
+            departure_time: datetime('2024-10-20T23:25:22'),
+            arrival_time: datetime('2024-10-21T04:31:22'),
+            duration: 306,
+            price: 205
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'QON'})
+        MATCH (destination:Airport {code: 'NGA'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'BA917',
+            departure_time: datetime('2024-10-21T01:10:22'),
+            arrival_time: datetime('2024-10-21T05:50:22'),
+            duration: 280,
+            price: 1627
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'LEP'})
+        MATCH (destination:Airport {code: 'RPP'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'EK837',
+            departure_time: datetime('2024-10-21T01:12:22'),
+            arrival_time: datetime('2024-10-21T02:28:22'),
+            duration: 76,
+            price: 1343
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'MRW'})
+        MATCH (destination:Airport {code: 'IFC'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'EK233',
+            departure_time: datetime('2024-10-21T03:16:22'),
+            arrival_time: datetime('2024-10-21T12:39:22'),
+            duration: 563,
+            price: 433
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'KFO'})
+        MATCH (destination:Airport {code: 'KWE'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'JL470',
+            departure_time: datetime('2024-10-20T23:55:22'),
+            arrival_time: datetime('2024-10-21T06:37:22'),
+            duration: 402,
+            price: 962
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'DBI'})
+        MATCH (destination:Airport {code: 'OXD'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'BA142',
+            departure_time: datetime('2024-10-21T03:06:22'),
+            arrival_time: datetime('2024-10-21T10:55:22'),
+            duration: 469,
+            price: 1503
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'RPP'})
+        MATCH (destination:Airport {code: 'CVP'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'DL594',
+            departure_time: datetime('2024-10-21T01:22:22'),
+            arrival_time: datetime('2024-10-21T09:02:22'),
+            duration: 460,
+            price: 234
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'KWE'})
+        MATCH (destination:Airport {code: 'ERY'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AA907',
+            departure_time: datetime('2024-10-21T03:29:22'),
+            arrival_time: datetime('2024-10-21T10:02:22'),
+            duration: 393,
+            price: 1730
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'RPP'})
+        MATCH (destination:Airport {code: 'IFC'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'BA308',
+            departure_time: datetime('2024-10-21T01:12:22'),
+            arrival_time: datetime('2024-10-21T04:55:22'),
+            duration: 223,
+            price: 904
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'VLU'})
+        MATCH (destination:Airport {code: 'CVP'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'BA241',
+            departure_time: datetime('2024-10-20T23:44:22'),
+            arrival_time: datetime('2024-10-21T02:44:22'),
+            duration: 180,
+            price: 529
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'NGA'})
+        MATCH (destination:Airport {code: 'VLU'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'JL801',
+            departure_time: datetime('2024-10-21T01:57:22'),
+            arrival_time: datetime('2024-10-21T10:03:22'),
+            duration: 486,
+            price: 541
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'LAF'})
+        MATCH (destination:Airport {code: 'RPP'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'JL705',
+            departure_time: datetime('2024-10-21T00:36:22'),
+            arrival_time: datetime('2024-10-21T08:39:22'),
+            duration: 483,
+            price: 598
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'DUR'})
+        MATCH (destination:Airport {code: 'LEP'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AF610',
+            departure_time: datetime('2024-10-21T01:14:22'),
+            arrival_time: datetime('2024-10-21T10:56:22'),
+            duration: 582,
+            price: 1669
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'XKQ'})
+        MATCH (destination:Airport {code: 'SSA'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'DL615',
+            departure_time: datetime('2024-10-21T02:26:22'),
+            arrival_time: datetime('2024-10-21T07:45:22'),
+            duration: 319,
+            price: 469
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'HHG'})
+        MATCH (destination:Airport {code: 'JBW'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'JL742',
+            departure_time: datetime('2024-10-20T23:42:22'),
+            arrival_time: datetime('2024-10-21T03:28:22'),
+            duration: 226,
+            price: 1905
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'KFO'})
+        MATCH (destination:Airport {code: 'FSW'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'JL882',
+            departure_time: datetime('2024-10-20T23:46:22'),
+            arrival_time: datetime('2024-10-21T03:21:22'),
+            duration: 215,
+            price: 1906
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'DPX'})
+        MATCH (destination:Airport {code: 'PKR'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'BA228',
+            departure_time: datetime('2024-10-21T03:22:22'),
+            arrival_time: datetime('2024-10-21T08:27:22'),
+            duration: 305,
+            price: 1154
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'EOK'})
+        MATCH (destination:Airport {code: 'MEI'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'JL315',
+            departure_time: datetime('2024-10-21T01:15:22'),
+            arrival_time: datetime('2024-10-21T07:04:22'),
+            duration: 349,
+            price: 411
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'DBI'})
+        MATCH (destination:Airport {code: 'AWB'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AF954',
+            departure_time: datetime('2024-10-21T02:46:22'),
+            arrival_time: datetime('2024-10-21T10:29:22'),
+            duration: 463,
+            price: 1552
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'IFC'})
+        MATCH (destination:Airport {code: 'IEP'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'DL235',
+            departure_time: datetime('2024-10-21T03:48:22'),
+            arrival_time: datetime('2024-10-21T10:02:22'),
+            duration: 374,
+            price: 450
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'JXA'})
+        MATCH (destination:Airport {code: 'DBI'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AA732',
+            departure_time: datetime('2024-10-21T03:29:22'),
+            arrival_time: datetime('2024-10-21T05:10:22'),
+            duration: 101,
+            price: 829
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'XKQ'})
+        MATCH (destination:Airport {code: 'XLN'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'DL214',
+            departure_time: datetime('2024-10-21T00:03:22'),
+            arrival_time: datetime('2024-10-21T06:46:22'),
+            duration: 403,
+            price: 1542
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'CVP'})
+        MATCH (destination:Airport {code: 'JLH'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'JL384',
+            departure_time: datetime('2024-10-21T00:40:22'),
+            arrival_time: datetime('2024-10-21T02:42:22'),
+            duration: 122,
+            price: 899
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'VLU'})
+        MATCH (destination:Airport {code: 'JLH'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'DL782',
+            departure_time: datetime('2024-10-21T03:04:22'),
+            arrival_time: datetime('2024-10-21T10:21:22'),
+            duration: 437,
+            price: 247
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'EOK'})
+        MATCH (destination:Airport {code: 'LAF'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'EK241',
+            departure_time: datetime('2024-10-21T00:45:22'),
+            arrival_time: datetime('2024-10-21T01:47:22'),
+            duration: 62,
+            price: 772
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'NGA'})
+        MATCH (destination:Airport {code: 'PBO'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'DL715',
+            departure_time: datetime('2024-10-21T00:25:22'),
+            arrival_time: datetime('2024-10-21T08:52:22'),
+            duration: 507,
+            price: 1076
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'NGA'})
+        MATCH (destination:Airport {code: 'RPP'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AA533',
+            departure_time: datetime('2024-10-21T01:04:22'),
+            arrival_time: datetime('2024-10-21T04:21:22'),
+            duration: 197,
+            price: 1224
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'PHF'})
+        MATCH (destination:Airport {code: 'AWB'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AF643',
+            departure_time: datetime('2024-10-20T23:20:22'),
+            arrival_time: datetime('2024-10-21T00:44:22'),
+            duration: 84,
+            price: 1257
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'XLN'})
+        MATCH (destination:Airport {code: 'TPA'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'BA834',
+            departure_time: datetime('2024-10-21T02:13:22'),
+            arrival_time: datetime('2024-10-21T10:54:22'),
+            duration: 521,
+            price: 480
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'BZB'})
+        MATCH (destination:Airport {code: 'HHG'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AF825',
+            departure_time: datetime('2024-10-21T02:55:22'),
+            arrival_time: datetime('2024-10-21T05:18:22'),
+            duration: 143,
+            price: 726
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'CVP'})
+        MATCH (destination:Airport {code: 'ZQT'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'EK178',
+            departure_time: datetime('2024-10-21T00:14:22'),
+            arrival_time: datetime('2024-10-21T08:25:22'),
+            duration: 491,
+            price: 883
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'ZQT'})
+        MATCH (destination:Airport {code: 'BZB'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'EK597',
+            departure_time: datetime('2024-10-21T03:34:22'),
+            arrival_time: datetime('2024-10-21T06:34:22'),
+            duration: 180,
+            price: 764
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'TPA'})
+        MATCH (destination:Airport {code: 'UUX'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'BA577',
+            departure_time: datetime('2024-10-21T03:05:22'),
+            arrival_time: datetime('2024-10-21T09:09:22'),
+            duration: 364,
+            price: 1717
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'XAE'})
+        MATCH (destination:Airport {code: 'DPX'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AF878',
+            departure_time: datetime('2024-10-21T01:47:22'),
+            arrival_time: datetime('2024-10-21T07:04:22'),
+            duration: 317,
+            price: 983
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'SSA'})
+        MATCH (destination:Airport {code: 'WFC'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AF479',
+            departure_time: datetime('2024-10-21T01:46:22'),
+            arrival_time: datetime('2024-10-21T09:32:22'),
+            duration: 466,
+            price: 902
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'SSA'})
+        MATCH (destination:Airport {code: 'EOK'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AF931',
+            departure_time: datetime('2024-10-21T01:39:22'),
+            arrival_time: datetime('2024-10-21T06:20:22'),
+            duration: 281,
+            price: 1389
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'UOK'})
+        MATCH (destination:Airport {code: 'LAF'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'JL213',
+            departure_time: datetime('2024-10-21T03:25:22'),
+            arrival_time: datetime('2024-10-21T11:09:22'),
+            duration: 464,
+            price: 288
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'KFO'})
+        MATCH (destination:Airport {code: 'ZGP'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'JL677',
+            departure_time: datetime('2024-10-20T23:41:22'),
+            arrival_time: datetime('2024-10-21T09:15:22'),
+            duration: 574,
+            price: 1742
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'SSA'})
+        MATCH (destination:Airport {code: 'PHF'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'BA492',
+            departure_time: datetime('2024-10-21T01:56:22'),
+            arrival_time: datetime('2024-10-21T08:11:22'),
+            duration: 375,
+            price: 510
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'ZQT'})
+        MATCH (destination:Airport {code: 'MEI'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'DL491',
+            departure_time: datetime('2024-10-21T00:22:22'),
+            arrival_time: datetime('2024-10-21T09:28:22'),
+            duration: 546,
+            price: 864
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'SQX'})
+        MATCH (destination:Airport {code: 'SSA'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'JL576',
+            departure_time: datetime('2024-10-21T02:43:22'),
+            arrival_time: datetime('2024-10-21T04:46:22'),
+            duration: 123,
+            price: 680
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'UOK'})
+        MATCH (destination:Airport {code: 'ZGP'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'DL878',
+            departure_time: datetime('2024-10-21T01:29:22'),
+            arrival_time: datetime('2024-10-21T05:16:22'),
+            duration: 227,
+            price: 778
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'IEP'})
+        MATCH (destination:Airport {code: 'EOK'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'BA774',
+            departure_time: datetime('2024-10-21T00:48:22'),
+            arrival_time: datetime('2024-10-21T09:44:22'),
+            duration: 536,
+            price: 1465
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'HON'})
+        MATCH (destination:Airport {code: 'BZB'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AA592',
+            departure_time: datetime('2024-10-21T01:09:22'),
+            arrival_time: datetime('2024-10-21T05:24:22'),
+            duration: 255,
+            price: 326
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'UOK'})
+        MATCH (destination:Airport {code: 'ZQT'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'JL466',
+            departure_time: datetime('2024-10-21T00:57:22'),
+            arrival_time: datetime('2024-10-21T07:25:22'),
+            duration: 388,
+            price: 1004
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'XAE'})
+        MATCH (destination:Airport {code: 'JBW'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AF684',
+            departure_time: datetime('2024-10-21T02:56:22'),
+            arrival_time: datetime('2024-10-21T08:20:22'),
+            duration: 324,
+            price: 475
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'JBW'})
+        MATCH (destination:Airport {code: 'UOK'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'BA920',
+            departure_time: datetime('2024-10-21T00:38:22'),
+            arrival_time: datetime('2024-10-21T08:57:22'),
+            duration: 499,
+            price: 824
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'OXD'})
+        MATCH (destination:Airport {code: 'CVP'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AA962',
+            departure_time: datetime('2024-10-21T01:23:22'),
+            arrival_time: datetime('2024-10-21T05:54:22'),
+            duration: 271,
+            price: 1678
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'LAF'})
+        MATCH (destination:Airport {code: 'ONQ'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'BA204',
+            departure_time: datetime('2024-10-21T02:32:22'),
+            arrival_time: datetime('2024-10-21T10:16:22'),
+            duration: 464,
+            price: 1372
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'ONQ'})
+        MATCH (destination:Airport {code: 'BZB'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'EK573',
+            departure_time: datetime('2024-10-21T02:10:22'),
+            arrival_time: datetime('2024-10-21T10:05:22'),
+            duration: 475,
+            price: 505
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'CVK'})
+        MATCH (destination:Airport {code: 'SSA'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'JL910',
+            departure_time: datetime('2024-10-21T01:07:22'),
+            arrival_time: datetime('2024-10-21T02:25:22'),
+            duration: 78,
+            price: 367
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'HHG'})
+        MATCH (destination:Airport {code: 'QON'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'EK790',
+            departure_time: datetime('2024-10-20T23:57:22'),
+            arrival_time: datetime('2024-10-21T08:34:22'),
+            duration: 517,
+            price: 432
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'ERY'})
+        MATCH (destination:Airport {code: 'OXD'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'JL623',
+            departure_time: datetime('2024-10-21T03:24:22'),
+            arrival_time: datetime('2024-10-21T13:18:22'),
+            duration: 594,
+            price: 1238
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'LAF'})
+        MATCH (destination:Airport {code: 'LEP'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AA408',
+            departure_time: datetime('2024-10-21T02:16:22'),
+            arrival_time: datetime('2024-10-21T07:52:22'),
+            duration: 336,
+            price: 1887
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'PKR'})
+        MATCH (destination:Airport {code: 'ZQT'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'EK590',
+            departure_time: datetime('2024-10-21T02:45:22'),
+            arrival_time: datetime('2024-10-21T09:03:22'),
+            duration: 378,
+            price: 1280
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'XAE'})
+        MATCH (destination:Airport {code: 'UUX'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AA758',
+            departure_time: datetime('2024-10-21T02:57:22'),
+            arrival_time: datetime('2024-10-21T06:45:22'),
+            duration: 228,
+            price: 1188
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'PKR'})
+        MATCH (destination:Airport {code: 'XKQ'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'EK750',
+            departure_time: datetime('2024-10-21T02:33:22'),
+            arrival_time: datetime('2024-10-21T11:05:22'),
+            duration: 512,
+            price: 1679
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'ONQ'})
+        MATCH (destination:Airport {code: 'XAE'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'DL620',
+            departure_time: datetime('2024-10-21T01:10:22'),
+            arrival_time: datetime('2024-10-21T06:59:22'),
+            duration: 349,
+            price: 1296
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'ZGP'})
+        MATCH (destination:Airport {code: 'EOK'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'JL813',
+            departure_time: datetime('2024-10-20T23:23:22'),
+            arrival_time: datetime('2024-10-21T03:28:22'),
+            duration: 245,
+            price: 355
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'DBI'})
+        MATCH (destination:Airport {code: 'PHF'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AF564',
+            departure_time: datetime('2024-10-21T00:38:22'),
+            arrival_time: datetime('2024-10-21T07:16:22'),
+            duration: 398,
+            price: 979
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'CVP'})
+        MATCH (destination:Airport {code: 'MEI'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'BA424',
+            departure_time: datetime('2024-10-20T23:18:22'),
+            arrival_time: datetime('2024-10-21T01:10:22'),
+            duration: 112,
+            price: 1665
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'AWB'})
+        MATCH (destination:Airport {code: 'DPX'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'BA870',
+            departure_time: datetime('2024-10-21T01:28:22'),
+            arrival_time: datetime('2024-10-21T06:58:22'),
+            duration: 330,
+            price: 589
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'ONQ'})
+        MATCH (destination:Airport {code: 'KFO'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'JL819',
+            departure_time: datetime('2024-10-20T23:32:22'),
+            arrival_time: datetime('2024-10-21T03:37:22'),
+            duration: 245,
+            price: 1760
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'DBI'})
+        MATCH (destination:Airport {code: 'SQX'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AF452',
+            departure_time: datetime('2024-10-21T02:59:22'),
+            arrival_time: datetime('2024-10-21T05:34:22'),
+            duration: 155,
+            price: 792
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'WUS'})
+        MATCH (destination:Airport {code: 'PHF'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'EK809',
+            departure_time: datetime('2024-10-21T03:05:22'),
+            arrival_time: datetime('2024-10-21T07:20:22'),
+            duration: 255,
+            price: 1605
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'JXA'})
+        MATCH (destination:Airport {code: 'ONQ'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AA428',
+            departure_time: datetime('2024-10-21T00:24:22'),
+            arrival_time: datetime('2024-10-21T01:43:22'),
+            duration: 79,
+            price: 1724
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'PHF'})
+        MATCH (destination:Airport {code: 'HON'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AA422',
+            departure_time: datetime('2024-10-21T01:06:22'),
+            arrival_time: datetime('2024-10-21T02:41:22'),
+            duration: 95,
+            price: 537
+        }]->(destination);
+
+MATCH (origin:Airport {code: 'MEI'})
+        MATCH (destination:Airport {code: 'JXA'})
+        CREATE (origin)-[:FLIGHT {
+            flight_number: 'AF658',
+            departure_time: datetime('2024-10-21T01:51:22'),
+            arrival_time: datetime('2024-10-21T09:44:22'),
+            duration: 473,
+            price: 482
+        }]->(destination);
 
