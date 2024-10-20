@@ -59,7 +59,7 @@ def generate_cypher_queries(airports, flights):
     for airport in airports:
         airport_query = f"""
         MERGE (a{i}:Airport {{code: '{airport['code']}'}})
-        ON CREATE SET a.name = '{airport['name']}', a.city = '{airport['city']}', a.country = '{airport['country']}', a.transfer_time = {airport['transfer_time']}'
+        ON CREATE SET a{i}.name = '{airport['name']}', a{i}.city = '{airport['city']}', a{i}.country = '{airport['country']}', a{i}.transfer_time = {airport['transfer_time']}
         """
         airport_queries.append(airport_query.strip())
         i = i + 1  
